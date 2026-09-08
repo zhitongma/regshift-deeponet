@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying Journal of Hydrology manuscript when using this code."
+type: software
+title: "RegShift-DeepONet: code for the bounded-coordinate DeepONet benchmark"
+authors:
+  - family-names: Ma
+    given-names: Zhitong
+  - family-names: Sun
+    given-names: Xueyang
+  - family-names: Wang
+    given-names: Wenke
+  - family-names: Li
+    given-names: Jing
+  - family-names: Ma
+    given-names: Shuyao
+abstract: >-
+  Code accompanying Benchmarking a bounded-coordinate DeepONet for unsaturated
+  flow and solute transport under time-varying infiltration, accepted by the
+  Journal of Hydrology (HYDROL 136388). Full training data and checkpoints are
+  not included in this compact local-source reconstruction.
