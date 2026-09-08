@@ -1,0 +1,10 @@
+set_key,severity_group,n_planned,n_sim_failed,n_qc_failed,n_evaluable,evaluable_fraction
+E6_extreme_peak_v1,peak_5.5,32,2,1,29,0.90625
+E6_extreme_peak_v1,peak_6.5,32,0,5,27,0.84375
+E6_extreme_peak_v1,peak_8.0,32,4,6,22,0.6875
+E6_extreme_peaktime_v1,peaktime_44h,8,1,0,7,0.875
+E6_extreme_peaktime_v1,peaktime_45h,8,0,0,8,1.0
+E6_extreme_peaktime_v1,peaktime_46h,8,1,0,7,0.875
+E6_extreme_peaktime_v1,peaktime_47h,8,0,1,7,0.875
+E8_joint_shift_v1,joint_Ks0.15,16,3,4,9,0.5625
+E8_joint_shift_v1,joint_Ks40,16,0,1,15,0.9375

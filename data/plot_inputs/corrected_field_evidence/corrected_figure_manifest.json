@@ -1,0 +1,19 @@
+{
+  "derived_summary": {
+    "corrected_regime_gain_summary.csv": "cab0547591fc42341b16795ae3444d225a5c1aa9904783016013d455e80b2316"
+  },
+  "generator": "generate_corrected_field_figures.py",
+  "inputs": {
+    "corrected_process_and_case_fields.npz": "19e066110963b7b4348b8bb0b18a21f40dbb78bf0e284f024fa65e97646206ab",
+    "corrected_regime_heatmaps.npz": "e35c09d987659e1879da11254b253c6f8d19ca55c2cc122c75c32f5da534ea3e",
+    "corrected_regime_summary.csv": "a6ed3acc1d00f10221ae0308fba1694f37dffdfbbbc0c9f8abcfcbe1e9ebbf7e"
+  },
+  "outputs": {
+    "fig4_process_chain_corrected.pdf": "5c0c3b98d8b156fdd6875c20d4900aed772964045bfb9e927538e819134728a5",
+    "fig4_process_chain_corrected.png": "ce1a0549a317ba1725a4bc422d742499c075a891d6f7acfba240284d5dc5a375",
+    "fig6_case_study_corrected.pdf": "b85bf2ca66928db875f0dec98e1b302f5f356019e91ea116a3b306f37813e130",
+    "fig6_case_study_corrected.png": "d85879b7dc1f6b1710e2564f79361607468f1ef00beb6c8d2f27ec226ddf7266",
+    "fig7_regime_corrected.pdf": "29a0aaef8402e9b7d83208ea89ed3e50458446b20576806735ee5936750489e3",
+    "fig7_regime_corrected.png": "5d9f23adbf6ffaca5e68da7751f24e17a1e7cc2badf993d53ac20b784e6a1048"
+  }
+}

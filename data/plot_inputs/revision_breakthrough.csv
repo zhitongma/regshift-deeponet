@@ -1,0 +1,4 @@
+scenario,mae_mean_h,mae_sd_h
+IID,4.38,0.92
+OOD peak,5.26,2.09
+OOD peak-time,4.89,1.70

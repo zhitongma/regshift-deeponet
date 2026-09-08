@@ -1,0 +1,1381 @@
+[
+  {
+    "file": "src/__init__.py",
+    "source": "最终回复/06_补充代码/src/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "copied",
+    "assembled_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "src/data_generation/__init__.py",
+    "source": "最终回复/06_补充代码/src/data_generation/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "copied",
+    "assembled_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "src/data_generation/dataset.py",
+    "source": "最终回复/06_补充代码/src/data_generation/dataset.py",
+    "source_sha256": "c263eb3cbb792bb3e536aca82ebad8429cfef111d28d5d67bb24b8ebc256939e",
+    "action": "copied",
+    "assembled_sha256": "c263eb3cbb792bb3e536aca82ebad8429cfef111d28d5d67bb24b8ebc256939e"
+  },
+  {
+    "file": "src/data_generation/hydrus_outputs.py",
+    "source": "最终回复/06_补充代码/src/data_generation/hydrus_outputs.py",
+    "source_sha256": "d644fae10d59c45f19051192e3197123424e0e84f156468926921b78583b0c49",
+    "action": "copied",
+    "assembled_sha256": "d644fae10d59c45f19051192e3197123424e0e84f156468926921b78583b0c49"
+  },
+  {
+    "file": "src/data_generation/hydrus_runner.py",
+    "source": "最终回复/06_补充代码/src/data_generation/hydrus_runner.py",
+    "source_sha256": "b2f4e6c7ede3905eff55164da8bfdb26f8950b179a7809faeafc26e9fa602f57",
+    "action": "copied",
+    "assembled_sha256": "b2f4e6c7ede3905eff55164da8bfdb26f8950b179a7809faeafc26e9fa602f57"
+  },
+  {
+    "file": "src/data_generation/postprocess.py",
+    "source": "最终回复/06_补充代码/src/data_generation/postprocess.py",
+    "source_sha256": "54ae9470797ce1049403598824de4d1e604b921c24f4ad884e4c715ba812ba4c",
+    "action": "copied",
+    "assembled_sha256": "54ae9470797ce1049403598824de4d1e604b921c24f4ad884e4c715ba812ba4c"
+  },
+  {
+    "file": "src/data_generation/sampling.py",
+    "source": "最终回复/06_补充代码/src/data_generation/sampling.py",
+    "source_sha256": "f5f0189f208edfc50b9de3282f97c7fcfadde6cbe45b20b8bd6bc0c6c025ec10",
+    "action": "copied",
+    "assembled_sha256": "f5f0189f208edfc50b9de3282f97c7fcfadde6cbe45b20b8bd6bc0c6c025ec10"
+  },
+  {
+    "file": "src/evaluation/__init__.py",
+    "source": "最终回复/06_补充代码/src/evaluation/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "copied",
+    "assembled_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "src/evaluation/metrics.py",
+    "source": "最终回复/06_补充代码/src/evaluation/metrics.py",
+    "source_sha256": "2e3190b8023ac3c57402f3317bbb78632694e4b825c3765041e30a292e8d4260",
+    "action": "copied",
+    "assembled_sha256": "2e3190b8023ac3c57402f3317bbb78632694e4b825c3765041e30a292e8d4260"
+  },
+  {
+    "file": "src/evaluation/time_query.py",
+    "source": "最终回复/06_补充代码/src/evaluation/time_query.py",
+    "source_sha256": "452a8df69916f3ada221424c1ffbdfd4909ccba2234e080a30c6a8973b9a20ae",
+    "action": "copied",
+    "assembled_sha256": "452a8df69916f3ada221424c1ffbdfd4909ccba2234e080a30c6a8973b9a20ae"
+  },
+  {
+    "file": "src/evaluation/visualization.py",
+    "source": "最终回复/06_补充代码/src/evaluation/visualization.py",
+    "source_sha256": "f4e8dcfabc3a6c71bd00ba253ea37141839c85c47190670376970404cd81845e",
+    "action": "copied",
+    "assembled_sha256": "f4e8dcfabc3a6c71bd00ba253ea37141839c85c47190670376970404cd81845e"
+  },
+  {
+    "file": "src/models/__init__.py",
+    "source": "最终回复/06_补充代码/src/models/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "copied",
+    "assembled_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "src/models/crossattn_deeponet.py",
+    "source": "最终回复/06_补充代码/src/models/crossattn_deeponet.py",
+    "source_sha256": "ca1f12eac1152b88d21e9a323c0f65951b6c57cff07bbc5015e575d16df2b545",
+    "action": "copied",
+    "assembled_sha256": "ca1f12eac1152b88d21e9a323c0f65951b6c57cff07bbc5015e575d16df2b545"
+  },
+  {
+    "file": "src/models/deeponet.py",
+    "source": "最终回复/06_补充代码/src/models/deeponet.py",
+    "source_sha256": "9cc1b37b403881d2dcbc4a947da06e466be09ed5f3e47e6728c60b4404f3f17a",
+    "action": "copied",
+    "assembled_sha256": "9cc1b37b403881d2dcbc4a947da06e466be09ed5f3e47e6728c60b4404f3f17a"
+  },
+  {
+    "file": "src/models/fnn_baseline.py",
+    "source": "最终回复/06_补充代码/src/models/fnn_baseline.py",
+    "source_sha256": "245cbd6b1013cf4f30b71abb09047828213cfd298e42d7614e839f14ee0aec51",
+    "action": "copied",
+    "assembled_sha256": "245cbd6b1013cf4f30b71abb09047828213cfd298e42d7614e839f14ee0aec51"
+  },
+  {
+    "file": "src/models/fno.py",
+    "source": "最终回复/06_补充代码/src/models/fno.py",
+    "source_sha256": "9d9f7a43f5c9a2fb7aae0a06297e5913942b23a6acdb53e9deb1ea81e6123dc4",
+    "action": "applied the supplied final-revision FNO padding patch",
+    "assembled_sha256": "e618aedcdb9db69ec1c3c7d00de517f13f94576536fb12818bf68ef2cdbd1cf3"
+  },
+  {
+    "file": "src/models/grid_fnn.py",
+    "source": "最终回复/06_补充代码/src/models/grid_fnn.py",
+    "source_sha256": "f7a907757f74ff2872d95290cdf3aa74171aa52aa7b2fc1a4fcacdae87d9a1a2",
+    "action": "copied",
+    "assembled_sha256": "f7a907757f74ff2872d95290cdf3aa74171aa52aa7b2fc1a4fcacdae87d9a1a2"
+  },
+  {
+    "file": "src/models/losses.py",
+    "source": "最终回复/06_补充代码/src/models/losses.py",
+    "source_sha256": "09aeb8ad7a9333db3316867334954480be43b93a4aa6724576ecea01ff3fe78d",
+    "action": "copied",
+    "assembled_sha256": "09aeb8ad7a9333db3316867334954480be43b93a4aa6724576ecea01ff3fe78d"
+  },
+  {
+    "file": "src/models/shift_deeponet.py",
+    "source": "最终回复/06_补充代码/src/models/shift_deeponet.py",
+    "source_sha256": "cd4e2dc261629b02340f9485118fb35a221faa78aa43dea37a52aa9e216a6672",
+    "action": "copied",
+    "assembled_sha256": "cd4e2dc261629b02340f9485118fb35a221faa78aa43dea37a52aa9e216a6672"
+  },
+  {
+    "file": "src/utils/__init__.py",
+    "source": "最终回复/06_补充代码/src/utils/__init__.py",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "action": "copied",
+    "assembled_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "src/utils/experiment.py",
+    "source": "最终回复/06_补充代码/src/utils/experiment.py",
+    "source_sha256": "24017fe467a40db4dcd2b48e6b6938b7a75a4ad126bf0e9b50a51acec7d1f818",
+    "action": "portable default config/output paths; reject misnested coordinate-bound keys",
+    "assembled_sha256": "271301da0d1d1f324545e2e23c8e979d75f4aefa71e8ed46f4046156af43bda5"
+  },
+  {
+    "file": "src/utils/normalization.py",
+    "source": "最终回复/06_补充代码/src/utils/normalization.py",
+    "source_sha256": "99f106b7303e6151b0246290372b80b37edaefc3654d766439caf9b81142c614",
+    "action": "copied",
+    "assembled_sha256": "99f106b7303e6151b0246290372b80b37edaefc3654d766439caf9b81142c614"
+  },
+  {
+    "file": "src/utils/training.py",
+    "source": "最终回复/06_补充代码/src/utils/training.py",
+    "source_sha256": "98bae8f68b999ffddb092d2a25c3292aed400474b4ccc91b69f628ffef04b481",
+    "action": "copied",
+    "assembled_sha256": "98bae8f68b999ffddb092d2a25c3292aed400474b4ccc91b69f628ffef04b481"
+  },
+  {
+    "file": "pipeline/01_generate_params.py",
+    "source": "最终回复/06_补充代码/pipeline/01_generate_params.py",
+    "source_sha256": "34e9f9e0b4f0de1cffc2e8c4367044d80b848b9716d71a6a529ba9e7d08f0054",
+    "action": "relocated; command examples updated",
+    "assembled_sha256": "34e9f9e0b4f0de1cffc2e8c4367044d80b848b9716d71a6a529ba9e7d08f0054"
+  },
+  {
+    "file": "pipeline/02_run_hydrus.py",
+    "source": "最终回复/06_补充代码/pipeline/02_run_hydrus.py",
+    "source_sha256": "fff1de9a3772a50190bfabbe1fb24ad8dba1bc4b43c7fe5791b48afff4fb6cb5",
+    "action": "relocated; command examples updated",
+    "assembled_sha256": "fff1de9a3772a50190bfabbe1fb24ad8dba1bc4b43c7fe5791b48afff4fb6cb5"
+  },
+  {
+    "file": "pipeline/03_process_data.py",
+    "source": "最终回复/06_补充代码/pipeline/03_process_data.py",
+    "source_sha256": "516c22b8877f0f3b9e5de82057beb0e7efe511fdaf2fa433aff198cbc5b236b2",
+    "action": "relocated; command examples updated",
+    "assembled_sha256": "516c22b8877f0f3b9e5de82057beb0e7efe511fdaf2fa433aff198cbc5b236b2"
+  },
+  {
+    "file": "pipeline/04_train_m1.py",
+    "source": "最终回复/06_补充代码/pipeline/04_train_m1.py",
+    "source_sha256": "093aaed459354be0902afcf8b1905674a0e6f3ccab5fcdfed621c643e14c2045",
+    "action": "relocated; command examples updated",
+    "assembled_sha256": "093aaed459354be0902afcf8b1905674a0e6f3ccab5fcdfed621c643e14c2045"
+  },
+  {
+    "file": "pipeline/04b_train_fnn.py",
+    "source": "最终回复/06_补充代码/pipeline/04b_train_fnn.py",
+    "source_sha256": "f1ad2f295fde670d31176482beed07169262b91d8148a7fc6add6a8780a41223",
+    "action": "relocated; command examples updated",
+    "assembled_sha256": "f1ad2f295fde670d31176482beed07169262b91d8148a7fc6add6a8780a41223"
+  },
+  {
+    "file": "pipeline/04c_train_fno.py",
+    "source": "最终回复/06_补充代码/pipeline/04c_train_fno.py",
+    "source_sha256": "29dda70ed75caad7eba63c581dc67f1ba8f715a0e5f34222c1f8959e03a88f1d",
+    "action": "relocated; command examples updated",
+    "assembled_sha256": "29dda70ed75caad7eba63c581dc67f1ba8f715a0e5f34222c1f8959e03a88f1d"
+  },
+  {
+    "file": "pipeline/04e_train_grid_fnn.py",
+    "source": "最终回复/06_补充代码/pipeline/04e_train_grid_fnn.py",
+    "source_sha256": "ba540ab6c45d6d3218f5f47906476cbb7a7dcd08b50939a3242f3b6e2170151f",
+    "action": "relocated; command examples updated",
+    "assembled_sha256": "ba540ab6c45d6d3218f5f47906476cbb7a7dcd08b50939a3242f3b6e2170151f"
+  },
+  {
+    "file": "pipeline/05_train_m2.py",
+    "source": "最终回复/06_补充代码/pipeline/05_train_m2.py",
+    "source_sha256": "836c3f1e94c4bb7001a4613335ce244cf667a077b53ffd7788df8d9874e491aa",
+    "action": "relocated; command examples updated",
+    "assembled_sha256": "836c3f1e94c4bb7001a4613335ce244cf667a077b53ffd7788df8d9874e491aa"
+  },
+  {
+    "file": "pipeline/06_evaluate.py",
+    "source": "最终回复/06_补充代码/pipeline/06_evaluate.py",
+    "source_sha256": "ed3950da0dc2bd2257566d3a1ec7d263d96cf1bc0ad0e886bbb046b33f605d72",
+    "action": "relocated; command examples updated",
+    "assembled_sha256": "ed3950da0dc2bd2257566d3a1ec7d263d96cf1bc0ad0e886bbb046b33f605d72"
+  },
+  {
+    "file": "analysis/regime_errors.py",
+    "source": "最终回复/06_补充代码/pipeline/analyze_regime_errors.py",
+    "source_sha256": "41b7551c9d6ec891417b904687d611072c618ccb92420aaa1a9a16760f9453c0",
+    "action": "relocated; command examples updated",
+    "assembled_sha256": "41b7551c9d6ec891417b904687d611072c618ccb92420aaa1a9a16760f9453c0"
+  },
+  {
+    "file": "configs/revision/E0_bounded/e0_regshift_highbudget_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E0_bounded/e0_regshift_highbudget_iid.yaml",
+    "source_sha256": "b901bde945210a608dddab014203c42ef3ef56e683c9103aed116546e2669f0b",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "b901bde945210a608dddab014203c42ef3ef56e683c9103aed116546e2669f0b"
+  },
+  {
+    "file": "configs/revision/E0_bounded/e0_regshift_highbudget_ood_peak.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E0_bounded/e0_regshift_highbudget_ood_peak.yaml",
+    "source_sha256": "eb7599adcb1583ea8c295bd9f70ad89a70d7e0ba58897ab98663c84e9400655f",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "eb7599adcb1583ea8c295bd9f70ad89a70d7e0ba58897ab98663c84e9400655f"
+  },
+  {
+    "file": "configs/revision/E0_bounded/e0_regshift_highbudget_ood_peak_time.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E0_bounded/e0_regshift_highbudget_ood_peak_time.yaml",
+    "source_sha256": "8d77a157c71990acaf7eca4add2a78b296c9bf2b3bd13430c6afb437df12e475",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "8d77a157c71990acaf7eca4add2a78b296c9bf2b3bd13430c6afb437df12e475"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_deeponet_highbudget_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_deeponet_highbudget_iid.yaml",
+    "source_sha256": "60f554503df3a6e052df59217e59400bfb11dc3fb05ee3626cc50f257c8c5802",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "60f554503df3a6e052df59217e59400bfb11dc3fb05ee3626cc50f257c8c5802"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_deeponet_highbudget_ood_peak.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_deeponet_highbudget_ood_peak.yaml",
+    "source_sha256": "83d5c2e2b15304fdcc93a8e24d39baa661bd4654cd597793bf7a94d4bf961964",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "83d5c2e2b15304fdcc93a8e24d39baa661bd4654cd597793bf7a94d4bf961964"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_deeponet_highbudget_ood_peak_time.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_deeponet_highbudget_ood_peak_time.yaml",
+    "source_sha256": "fafb47702c1240e117a68298cd6a156365997fa768adf354baf3ee22825fdafb",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "fafb47702c1240e117a68298cd6a156365997fa768adf354baf3ee22825fdafb"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_fnn_highbudget_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_fnn_highbudget_iid.yaml",
+    "source_sha256": "6d880f7c4efd67877d737029c87d0c42bee8a39a46e738e36a55f02dcd13dc43",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "6d880f7c4efd67877d737029c87d0c42bee8a39a46e738e36a55f02dcd13dc43"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_fnn_highbudget_ood_peak.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_fnn_highbudget_ood_peak.yaml",
+    "source_sha256": "f24318f193c226869e3783d0116bc99e962ea64369b64f891b540fcd4ce9392d",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "f24318f193c226869e3783d0116bc99e962ea64369b64f891b540fcd4ce9392d"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_fnn_highbudget_ood_peak_time.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_fnn_highbudget_ood_peak_time.yaml",
+    "source_sha256": "b5a33bd8531c2c39c671bf10c718c5a37daf5da9c53f718430579fa58fc874d0",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "b5a33bd8531c2c39c671bf10c718c5a37daf5da9c53f718430579fa58fc874d0"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_regshift_lowbudget_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_regshift_lowbudget_iid.yaml",
+    "source_sha256": "926540034b34e51d2f236ce21022d5f544613b170f3d4d768d90e65d1aacb853",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "926540034b34e51d2f236ce21022d5f544613b170f3d4d768d90e65d1aacb853"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_regshift_lowbudget_ood_peak.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_regshift_lowbudget_ood_peak.yaml",
+    "source_sha256": "c05a3089db5b355dc837cae17dbe0c0feef8eb562582d9cb4cd7cd76ced247f1",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "c05a3089db5b355dc837cae17dbe0c0feef8eb562582d9cb4cd7cd76ced247f1"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_regshift_lowbudget_ood_peak_time.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_regshift_lowbudget_ood_peak_time.yaml",
+    "source_sha256": "6125f8698e0f16496ecb19fdacf5cee10b7581927734ae37c631e31f688fab8c",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "6125f8698e0f16496ecb19fdacf5cee10b7581927734ae37c631e31f688fab8c"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_shift_highbudget_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_shift_highbudget_iid.yaml",
+    "source_sha256": "77aae51523ffce6c06c40afc234833459200713f1048568070fe7c2f634318f2",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "77aae51523ffce6c06c40afc234833459200713f1048568070fe7c2f634318f2"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_shift_highbudget_ood_peak.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_shift_highbudget_ood_peak.yaml",
+    "source_sha256": "98fb5067198dfed6c28abf08193623c09028c035dfea12fb9cd1391b79cace14",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "98fb5067198dfed6c28abf08193623c09028c035dfea12fb9cd1391b79cace14"
+  },
+  {
+    "file": "configs/revision/E1_budget/e1_shift_highbudget_ood_peak_time.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E1_budget/e1_shift_highbudget_ood_peak_time.yaml",
+    "source_sha256": "13b00f6e4050cf44e4161a9e9c31fc7860b1662659912cf269df40e717b1c64d",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "13b00f6e4050cf44e4161a9e9c31fc7860b1662659912cf269df40e717b1c64d"
+  },
+  {
+    "file": "configs/revision/E2_bounds/E2_regshift_iid_s010_d010.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E2_bounds/E2_regshift_iid_s010_d010.yaml",
+    "source_sha256": "54e9b8b316639b8a8f0133c99daf9d5f52e2312e42182f3b73bf4d08dfacd419",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "54e9b8b316639b8a8f0133c99daf9d5f52e2312e42182f3b73bf4d08dfacd419"
+  },
+  {
+    "file": "configs/revision/E2_bounds/E2_regshift_iid_s020_d015.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E2_bounds/E2_regshift_iid_s020_d015.yaml",
+    "source_sha256": "eff62e6acfe88aa863092e64e758e9990d5b75d3d5670f6cb775874c9f8d2eb9",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "eff62e6acfe88aa863092e64e758e9990d5b75d3d5670f6cb775874c9f8d2eb9"
+  },
+  {
+    "file": "configs/revision/E2_bounds/E2_regshift_iid_s050_d030.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E2_bounds/E2_regshift_iid_s050_d030.yaml",
+    "source_sha256": "81e6fa161c138947d7e6366a5089e8a77ef558a57b629e502e25a41995b6d8bc",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "81e6fa161c138947d7e6366a5089e8a77ef558a57b629e502e25a41995b6d8bc"
+  },
+  {
+    "file": "configs/revision/E2_bounds/E2_regshift_ood_peak_s010_d010.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E2_bounds/E2_regshift_ood_peak_s010_d010.yaml",
+    "source_sha256": "596426f1084a383ba3927d9a8da37812eb165ee7296981c0f9141ad40d21d8ea",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "596426f1084a383ba3927d9a8da37812eb165ee7296981c0f9141ad40d21d8ea"
+  },
+  {
+    "file": "configs/revision/E2_bounds/E2_regshift_ood_peak_s020_d015.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E2_bounds/E2_regshift_ood_peak_s020_d015.yaml",
+    "source_sha256": "322c185cbd467137597523830b80d9652bbc70ac8ffbe3c376b381511cd40053",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "322c185cbd467137597523830b80d9652bbc70ac8ffbe3c376b381511cd40053"
+  },
+  {
+    "file": "configs/revision/E2_bounds/E2_regshift_ood_peak_s050_d030.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E2_bounds/E2_regshift_ood_peak_s050_d030.yaml",
+    "source_sha256": "c0eaa081e705d5ae281a294e29448b78f5ab116836184a6ea5ddf643255e5251",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "c0eaa081e705d5ae281a294e29448b78f5ab116836184a6ea5ddf643255e5251"
+  },
+  {
+    "file": "configs/revision/E2_bounds/E2_regshift_ood_peak_time_s010_d010.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E2_bounds/E2_regshift_ood_peak_time_s010_d010.yaml",
+    "source_sha256": "7fab833ff464eefe99173089a77c0f2cc85d43f812ba9d5ca0c8abfa64428ba9",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "7fab833ff464eefe99173089a77c0f2cc85d43f812ba9d5ca0c8abfa64428ba9"
+  },
+  {
+    "file": "configs/revision/E2_bounds/E2_regshift_ood_peak_time_s020_d015.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E2_bounds/E2_regshift_ood_peak_time_s020_d015.yaml",
+    "source_sha256": "6c500d2c43bbfa128fd86d400b3f42c75c4ada00955a5c7ce61c700e0579b58e",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "6c500d2c43bbfa128fd86d400b3f42c75c4ada00955a5c7ce61c700e0579b58e"
+  },
+  {
+    "file": "configs/revision/E2_bounds/E2_regshift_ood_peak_time_s050_d030.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E2_bounds/E2_regshift_ood_peak_time_s050_d030.yaml",
+    "source_sha256": "d5d89427f739b452d488b5a7bc33d56712cfa6ae49aad1e58e3d29af6c8e8989",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "d5d89427f739b452d488b5a7bc33d56712cfa6ae49aad1e58e3d29af6c8e8989"
+  },
+  {
+    "file": "configs/revision/E3_fno_final/fno_best_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E3_fno_final/fno_best_iid.yaml",
+    "source_sha256": "1a817fc8ad0638acfdbcf18ec2ed0e2cff942dafa8d38115a499596b6cc61001",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "211a6604f967fa17b1735855575219f4043e6a4f137ca1d8cc8ead74eff8312c"
+  },
+  {
+    "file": "configs/revision/E3_fno_final/fno_best_ood_peak.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E3_fno_final/fno_best_ood_peak.yaml",
+    "source_sha256": "00eded0d66c680f820a9e715012feda453a112b01a951cd6db3374c95aa2ed3c",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "bfb1e4c06fcc1701b7cf435b7b63928ceb49dd3b34055e4e4959e2791a8c476f"
+  },
+  {
+    "file": "configs/revision/E3_fno_final/fno_best_ood_peak_time.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E3_fno_final/fno_best_ood_peak_time.yaml",
+    "source_sha256": "2e95f42ba7a946a0b123e99fdb359ad3cb11887b16506b7b41f133a8e4c5662d",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "af949add64b3ac9f3aa6f187112569835cf279ee4443a95b8b568111e96803bb"
+  },
+  {
+    "file": "configs/revision/E5_rainfall/e5_eval_regshift_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E5_rainfall/e5_eval_regshift_iid.yaml",
+    "source_sha256": "ba588de868a37ec36a40d429c3d78c44f22e71061cbf0f404a3fec3d529e5475",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "ba588de868a37ec36a40d429c3d78c44f22e71061cbf0f404a3fec3d529e5475"
+  },
+  {
+    "file": "configs/revision/E5_rainfall/e5_eval_shift_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E5_rainfall/e5_eval_shift_iid.yaml",
+    "source_sha256": "56eb4052bd87ad90db41b93c4e5276ca5686e070c5a207a835670ddecdce5e41",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "56eb4052bd87ad90db41b93c4e5276ca5686e070c5a207a835670ddecdce5e41"
+  },
+  {
+    "file": "configs/revision/E5_rainfall/e5_eval_vanilla_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E5_rainfall/e5_eval_vanilla_iid.yaml",
+    "source_sha256": "3f099a723223b6291bde278484a256196ac6729547d5a2b4fd6608ad82ba391a",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "3f099a723223b6291bde278484a256196ac6729547d5a2b4fd6608ad82ba391a"
+  },
+  {
+    "file": "configs/revision/E6E8_shifts/e6_extreme_peak_sim.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E6E8_shifts/e6_extreme_peak_sim.yaml",
+    "source_sha256": "9634d3b5716fb7278631261767ebeb2e2179909a636e26dd8ef87bfdd8708fd3",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "9634d3b5716fb7278631261767ebeb2e2179909a636e26dd8ef87bfdd8708fd3"
+  },
+  {
+    "file": "configs/revision/E6E8_shifts/e6_extreme_peaktime_sim.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E6E8_shifts/e6_extreme_peaktime_sim.yaml",
+    "source_sha256": "389ec50ac5888db823f57beb2b9ed7035fc2950095337a144203d3bfafdc78c8",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "389ec50ac5888db823f57beb2b9ed7035fc2950095337a144203d3bfafdc78c8"
+  },
+  {
+    "file": "configs/revision/E6E8_shifts/e8_joint_shift_sim.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E6E8_shifts/e8_joint_shift_sim.yaml",
+    "source_sha256": "c00952111d43f3aaa784b8e5816de5d12aff35dca69cd3f9667d276d0f125d65",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "c00952111d43f3aaa784b8e5816de5d12aff35dca69cd3f9667d276d0f125d65"
+  },
+  {
+    "file": "configs/revision/E6E8_shifts/eval_baseline_deeponet.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E6E8_shifts/eval_baseline_deeponet.yaml",
+    "source_sha256": "3c4ff47e772cb92fe2afe54a04a742845dd684a8732eb79d4551e4e27daaf542",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "3c4ff47e772cb92fe2afe54a04a742845dd684a8732eb79d4551e4e27daaf542"
+  },
+  {
+    "file": "configs/revision/E6E8_shifts/eval_regshift_bounded.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E6E8_shifts/eval_regshift_bounded.yaml",
+    "source_sha256": "4224d8e0903fee5753664018ba64d819eb1731f2772a17cf8dcce42a0055bf60",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "4224d8e0903fee5753664018ba64d819eb1731f2772a17cf8dcce42a0055bf60"
+  },
+  {
+    "file": "configs/revision/E6E8_shifts/eval_shift_unbounded.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E6E8_shifts/eval_shift_unbounded.yaml",
+    "source_sha256": "7b1c4f75071f837ec60ce7b414e24e5f52df4a8f969cff0a856e8cd74f05f98e",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "7b1c4f75071f837ec60ce7b414e24e5f52df4a8f969cff0a856e8cd74f05f98e"
+  },
+  {
+    "file": "configs/revision/E7_screen/e7_mc_regshift_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E7_screen/e7_mc_regshift_iid.yaml",
+    "source_sha256": "7a73ab7d33bfc0e211317886c40ee9b71e73047f7114816089b2ff472ce30a0c",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "7a73ab7d33bfc0e211317886c40ee9b71e73047f7114816089b2ff472ce30a0c"
+  },
+  {
+    "file": "configs/revision/E9_cost/e9_bench_hydrus_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E9_cost/e9_bench_hydrus_iid.yaml",
+    "source_sha256": "0af623a160712ffba6eec4d3ad69762ba74774ed94bfb2228e01d1e0d6a843f2",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "0af623a160712ffba6eec4d3ad69762ba74774ed94bfb2228e01d1e0d6a843f2"
+  },
+  {
+    "file": "configs/revision/E9_cost/e9_bench_regshift_iid.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/E9_cost/e9_bench_regshift_iid.yaml",
+    "source_sha256": "75cbb3062e824ecba97c632cdb6fdc9b91088938bc901dc7018354da1d1c1181",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "75cbb3062e824ecba97c632cdb6fdc9b91088938bc901dc7018354da1d1c1181"
+  },
+  {
+    "file": "configs/revision/base/boost_A4_shift.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/base/boost_A4_shift.yaml",
+    "source_sha256": "e3836e77b4b13513ef63ed8dc62cd7ecd28834628883e02299c6b44ca58e9d15",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "e3836e77b4b13513ef63ed8dc62cd7ecd28834628883e02299c6b44ca58e9d15"
+  },
+  {
+    "file": "configs/revision/base/qtop_func_iid_medium.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/base/qtop_func_iid_medium.yaml",
+    "source_sha256": "5f84c731b41f20457b08756a665543e6062603b2a1ef70686c014f3f3cb73b48",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "5f84c731b41f20457b08756a665543e6062603b2a1ef70686c014f3f3cb73b48"
+  },
+  {
+    "file": "configs/revision/base/qtop_func_ood_peak_medium.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/base/qtop_func_ood_peak_medium.yaml",
+    "source_sha256": "856cedb4a1d96ea3c209a562d2d8cf83133305ffd5f159cda5442c4777bd9db4",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "856cedb4a1d96ea3c209a562d2d8cf83133305ffd5f159cda5442c4777bd9db4"
+  },
+  {
+    "file": "configs/revision/base/qtop_func_ood_peak_time_medium.yaml",
+    "source": "最终回复/06_补充代码/configs/revision/base/qtop_func_ood_peak_time_medium.yaml",
+    "source_sha256": "2a96d782666778bf1083b0818d165296c545b7738d4cedbc032d4538cfb15102",
+    "action": "copied; stale FNO placeholder comments corrected where applicable",
+    "assembled_sha256": "2a96d782666778bf1083b0818d165296c545b7738d4cedbc032d4538cfb15102"
+  },
+  {
+    "file": "analysis/E0/export_corrected_field_evidence.py",
+    "source": "最终回复/06_补充代码/analysis/E0/export_corrected_field_evidence.py",
+    "source_sha256": "dffb0d728aecd517cfdaf010e129fb491548e3e8664b3b950765aacc27c6b04a",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "dffb0d728aecd517cfdaf010e129fb491548e3e8664b3b950765aacc27c6b04a"
+  },
+  {
+    "file": "analysis/E0/tools/preflight_bounds_torch.py",
+    "source": "最终回复/06_补充代码/analysis/E0/tools/preflight_bounds_torch.py",
+    "source_sha256": "1cbd7218481db6b991400da57dec9ddbbfe30c687283d6d486205e6cacc14539",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "801fe8175b20732395ee94d888f0d7da9a86fce398d1076861104f6b2c99945b"
+  },
+  {
+    "file": "analysis/E0/tools/preflight_bounds_yaml.py",
+    "source": "最终回复/06_补充代码/analysis/E0/tools/preflight_bounds_yaml.py",
+    "source_sha256": "aaf3bda183caaecf38dd717499831729b526ee627c22bd9b4a3f620a2d6b576c",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "aaf3bda183caaecf38dd717499831729b526ee627c22bd9b4a3f620a2d6b576c"
+  },
+  {
+    "file": "analysis/E0/tools/probe_transform.py",
+    "source": "最终回复/06_补充代码/analysis/E0/tools/probe_transform.py",
+    "source_sha256": "37beec157e78e2fd5606802b93c8ebc9268069e845454bdcdc27beeb3c26df32",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "37beec157e78e2fd5606802b93c8ebc9268069e845454bdcdc27beeb3c26df32"
+  },
+  {
+    "file": "analysis/E1/aggregate_training_manifests.py",
+    "source": "最终回复/06_补充代码/analysis/E1/aggregate_training_manifests.py",
+    "source_sha256": "f6d11ccaf995275e05de11c9fff7214849e000ac5d8faa80c850db5c414e75fa",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "f6d11ccaf995275e05de11c9fff7214849e000ac5d8faa80c850db5c414e75fa"
+  },
+  {
+    "file": "analysis/E1/collect_results.py",
+    "source": "最终回复/06_补充代码/analysis/E1/collect_results.py",
+    "source_sha256": "2f05a1cb8834f09288f80c0a8842a17c5832c9a21b4ab13554bd89a7d9eb8c8b",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "33e829c532bdfead52dbd3374590c2e104eb785ba03cf04d6523743ace31b93b"
+  },
+  {
+    "file": "analysis/E1/preflight_bounds.py",
+    "source": "最终回复/06_补充代码/analysis/E1/preflight_bounds.py",
+    "source_sha256": "6a291e3defa7ab149a01163bb3182953164e596c73757376944f84625e980d6f",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "cd784d64e7f7efe03b631cd1e8b82b945d1b63728cc32bfae15e7df11ba935b6"
+  },
+  {
+    "file": "analysis/E1/preflight_yaml_only.py",
+    "source": "最终回复/06_补充代码/analysis/E1/preflight_yaml_only.py",
+    "source_sha256": "1bb660c0d431113d49bace780f338863e65317b14a99c932c4d54f3a7d832c28",
+    "action": "repository-relative paths and central configuration/output directory defaults; analysis algorithms retained",
+    "assembled_sha256": "7a78d04888002afa0a6533134b27db137f17b49db6ae81e2f7a122d160021e51"
+  },
+  {
+    "file": "analysis/E10/scripts/mbe_common.py",
+    "source": "最终回复/06_补充代码/analysis/E10/scripts/mbe_common.py",
+    "source_sha256": "139d31e389a0a11238e1ccf6c69a804f97bb3ecbad26c66d7679bb1249833cc0",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "139d31e389a0a11238e1ccf6c69a804f97bb3ecbad26c66d7679bb1249833cc0"
+  },
+  {
+    "file": "analysis/E10/scripts/mbe_vs_error.py",
+    "source": "最终回复/06_补充代码/analysis/E10/scripts/mbe_vs_error.py",
+    "source_sha256": "5dec70d5460c864d175c45f4f7affaa34a0db567f5fe4e881f9bfbaaae9cb620",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "5dec70d5460c864d175c45f4f7affaa34a0db567f5fe4e881f9bfbaaae9cb620"
+  },
+  {
+    "file": "analysis/E10/scripts/noise_mbe_demo.py",
+    "source": "最终回复/06_补充代码/analysis/E10/scripts/noise_mbe_demo.py",
+    "source_sha256": "b2b4682e5773e8efed1f9a804ac971d0777f6a73ec72456a6426e3347ff4ce5b",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "b2b4682e5773e8efed1f9a804ac971d0777f6a73ec72456a6426e3347ff4ce5b"
+  },
+  {
+    "file": "analysis/E10/scripts/threshold_analysis.py",
+    "source": "最终回复/06_补充代码/analysis/E10/scripts/threshold_analysis.py",
+    "source_sha256": "817d9290ddb01e03dbeb9932f8a6c8e6df482b22ea9e73b74270a857a7d5fea7",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "817d9290ddb01e03dbeb9932f8a6c8e6df482b22ea9e73b74270a857a7d5fea7"
+  },
+  {
+    "file": "analysis/E11/analyze_e11.py",
+    "source": "最终回复/06_补充代码/analysis/E11/analyze_e11.py",
+    "source_sha256": "005ad58c20be12522912072723335aac0f47b74d54e5aa5972d5a859a99e1f30",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "005ad58c20be12522912072723335aac0f47b74d54e5aa5972d5a859a99e1f30"
+  },
+  {
+    "file": "analysis/E11/bench_hydrus_multiprocess.py",
+    "source": "最终回复/06_补充代码/analysis/E11/bench_hydrus_multiprocess.py",
+    "source_sha256": "149e2101328f68af0f19c5ef30c43b261b2fb439b382762f60445b27a533767c",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "149e2101328f68af0f19c5ef30c43b261b2fb439b382762f60445b27a533767c"
+  },
+  {
+    "file": "analysis/E2/front_envelope.py",
+    "source": "最终回复/06_补充代码/analysis/E2/front_envelope.py",
+    "source_sha256": "f9f7f8418fd691a80ad67ddb826fa77349e500c159ec9f2338fae0344fe0e2f2",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "1b1f06643406d557439905a50c0cb6f38ce2b53d25bfa1e805565310684181ef"
+  },
+  {
+    "file": "analysis/E2/plot_sensitivity.py",
+    "source": "最终回复/06_补充代码/analysis/E2/plot_sensitivity.py",
+    "source_sha256": "c334807a804f9dffadc8baefa54a69b6317913366e91e8eb7b70baeb78bcce07",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "c2743492569721952a77a5f9d6f98bb5f01090a291bc8bc3f68bc846635d0413"
+  },
+  {
+    "file": "analysis/E2/preflight_torch.py",
+    "source": "最终回复/06_补充代码/analysis/E2/preflight_torch.py",
+    "source_sha256": "d24534b011ee74052d2a354a37230c6084ca70737046122aa11bb54cab81992d",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "0e8c038396e61abda0f4ecc685a44050f97864dcbccd7cc4fc0769e6ae3b27b6"
+  },
+  {
+    "file": "analysis/E2/preflight_yaml.py",
+    "source": "最终回复/06_补充代码/analysis/E2/preflight_yaml.py",
+    "source_sha256": "93b83c1565bb63b861e72940d2e40ac9d9ee0ec47e6ec3a7258a6435b77dd785",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "93b83c1565bb63b861e72940d2e40ac9d9ee0ec47e6ec3a7258a6435b77dd785"
+  },
+  {
+    "file": "analysis/E3/collect_search.py",
+    "source": "最终回复/06_补充代码/analysis/E3/collect_search.py",
+    "source_sha256": "b4ef681532e24768255eb1819c7823a3ba2f3d21ebc9b0068a4f1d281b836624",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "9dad876d57ed83cc0752b4ff273d74c3b5997fbb59fea79cb70df8a98b263ba2"
+  },
+  {
+    "file": "analysis/E3/make_search_configs.py",
+    "source": "最终回复/06_补充代码/analysis/E3/make_search_configs.py",
+    "source_sha256": "cdc7f269a7af4fd7951a6fc9a124d1818bf96b0165066f219e1e2d2f71aa12c7",
+    "action": "repository-relative paths and central configuration/output directory defaults; analysis algorithms retained",
+    "assembled_sha256": "3dde17117ee08f16acb5f866488c2f89875c114dae8e8d4c410c0b90da78697b"
+  },
+  {
+    "file": "analysis/E3/preflight_fno_torch.py",
+    "source": "最终回复/06_补充代码/analysis/E3/preflight_fno_torch.py",
+    "source_sha256": "307301ac02c25a4b6df2b6489805775e125e5294527aff52ca1b0fe8f39c204c",
+    "action": "repository-relative paths and central configuration/output directory defaults; analysis algorithms retained",
+    "assembled_sha256": "b9e349e67be1352a8d6f3b49ae59a1f43630fa2fab58310cc42b56c95eb19868"
+  },
+  {
+    "file": "analysis/E3/preflight_fno_yaml.py",
+    "source": "最终回复/06_补充代码/analysis/E3/preflight_fno_yaml.py",
+    "source_sha256": "e343865470a03699db1c157546fbb432209bad0728409cd18331e72c94e2e0ec",
+    "action": "repository-relative paths and central configuration/output directory defaults; analysis algorithms retained",
+    "assembled_sha256": "47c5c0e26dff6be48182f2439ece39e1a812f17b9817c2900e2090ee37b00d4d"
+  },
+  {
+    "file": "analysis/E4/analyze_qc.py",
+    "source": "最终回复/06_补充代码/analysis/E4/analyze_qc.py",
+    "source_sha256": "db75eadd92854a32b3712124c4be009b1d64f0540959bc8631c92075f60d978e",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "8dc3de0cc95f62b2db9eda88431d59bbc4324af6195d14d3a37e8768fc5673b9"
+  },
+  {
+    "file": "analysis/E5/build_events.py",
+    "source": "最终回复/06_补充代码/analysis/E5/build_events.py",
+    "source_sha256": "9ae257622a4f79d57685022d9230727e601a7afbe15d2020ba5d80290a9bc290",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "9ae257622a4f79d57685022d9230727e601a7afbe15d2020ba5d80290a9bc290"
+  },
+  {
+    "file": "analysis/E5/collect_results.py",
+    "source": "最终回复/06_补充代码/analysis/E5/collect_results.py",
+    "source_sha256": "142b6c14e0d1d50dcb3eac8ad2311d9e93bf1ea305cfec580e2106897fb60f15",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "142b6c14e0d1d50dcb3eac8ad2311d9e93bf1ea305cfec580e2106897fb60f15"
+  },
+  {
+    "file": "analysis/E5/process_external_test.py",
+    "source": "最终回复/06_补充代码/analysis/E5/process_external_test.py",
+    "source_sha256": "2b34b31429c373538097d303427201ca22d62d9ef2802a966df7ec00f7f9c33a",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "c19cc60beecde55d3dcab8687a77955d799616453339cdaaaf593d5ebf74bf9c"
+  },
+  {
+    "file": "analysis/E5/stats_compare.py",
+    "source": "最终回复/06_补充代码/analysis/E5/stats_compare.py",
+    "source_sha256": "b1c38b8862151f7ac1f71d23c882cc6b75de6d148c27651dab292cca2baef5c7",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "b1c38b8862151f7ac1f71d23c882cc6b75de6d148c27651dab292cca2baef5c7"
+  },
+  {
+    "file": "analysis/E6E8/scripts/eval_subsets.py",
+    "source": "最终回复/06_补充代码/analysis/E6E8/scripts/eval_subsets.py",
+    "source_sha256": "80948a690ed1644ceaeefad780870dea86e201f2c070545d10289164532b91b8",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "80948a690ed1644ceaeefad780870dea86e201f2c070545d10289164532b91b8"
+  },
+  {
+    "file": "analysis/E6E8/scripts/make_extreme_params.py",
+    "source": "最终回复/06_补充代码/analysis/E6E8/scripts/make_extreme_params.py",
+    "source_sha256": "30cf371b2c4c0389d4c447d0b26ede9b19c212c4ccfbf670f48d704f0bb7151c",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "347aaae30330d9c56a0794b4e849741e533852ef919f24394d0281ff05bf9a0f"
+  },
+  {
+    "file": "analysis/E6E8/scripts/make_subsets_B.py",
+    "source": "最终回复/06_补充代码/analysis/E6E8/scripts/make_subsets_B.py",
+    "source_sha256": "a7986c4057b94dca3d0e367edbdb025fe47ae6eb3a140fb45a0267631599c05a",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "a7986c4057b94dca3d0e367edbdb025fe47ae6eb3a140fb45a0267631599c05a"
+  },
+  {
+    "file": "analysis/E6E8/scripts/preflight_shift_bounds.py",
+    "source": "最终回复/06_补充代码/analysis/E6E8/scripts/preflight_shift_bounds.py",
+    "source_sha256": "17e1418cf973caff53b54bc25a2f6db4996f37e69ee97c8c2bbdca2590d02a6c",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "17e1418cf973caff53b54bc25a2f6db4996f37e69ee97c8c2bbdca2590d02a6c"
+  },
+  {
+    "file": "analysis/E6E8/scripts/preflight_yaml_only.py",
+    "source": "最终回复/06_补充代码/analysis/E6E8/scripts/preflight_yaml_only.py",
+    "source_sha256": "25d1ea8ce68035b7617b07e707f7b4fa156ce04d37ff071130c86084fc5c0b4c",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "25d1ea8ce68035b7617b07e707f7b4fa156ce04d37ff071130c86084fc5c0b4c"
+  },
+  {
+    "file": "analysis/E6E8/scripts/process_extreme.py",
+    "source": "最终回复/06_补充代码/analysis/E6E8/scripts/process_extreme.py",
+    "source_sha256": "2e597741060f20efebfaa31f89f95f5cf9221e86d43a4a2429ecd5cc47768d89",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "d9b0c71c7d180ef6341879ecca64b590c24082b6915af24d6dbb5f8bb615405e"
+  },
+  {
+    "file": "analysis/E6E8/scripts/regrade_tails.py",
+    "source": "最终回复/06_补充代码/analysis/E6E8/scripts/regrade_tails.py",
+    "source_sha256": "8878bcf21c40157dd841a3d55a5758686751e3b3f86458dd13b9b91b68e7eb3e",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "8878bcf21c40157dd841a3d55a5758686751e3b3f86458dd13b9b91b68e7eb3e"
+  },
+  {
+    "file": "analysis/E6E8/scripts/severity_curve.py",
+    "source": "最终回复/06_补充代码/analysis/E6E8/scripts/severity_curve.py",
+    "source_sha256": "9ff2c268ab9de6d0c252b961ffa21fde1421991926fdf91a63080d4fb9617b98",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "9ff2c268ab9de6d0c252b961ffa21fde1421991926fdf91a63080d4fb9617b98"
+  },
+  {
+    "file": "analysis/E7/scripts/mc_screening.py",
+    "source": "最终回复/06_补充代码/analysis/E7/scripts/mc_screening.py",
+    "source_sha256": "33817218adf4fbbce5d8f9ebd37c2ce59ffda6fba25eacff275ea1067a7cd786",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "e392c2291f1e6d437f1171ff9358154cf6e906cd9942aba59e1815013a9840e5"
+  },
+  {
+    "file": "analysis/E7/scripts/preflight_e7.py",
+    "source": "最终回复/06_补充代码/analysis/E7/scripts/preflight_e7.py",
+    "source_sha256": "87a81b76d919ec80d2428c9e6a554382225013982b70e521cdbca909c66e6865",
+    "action": "repository-relative paths and central configuration/output directory defaults; analysis algorithms retained",
+    "assembled_sha256": "b3dc694c74338c8ad35a51823654c3a66453bd9ec70984808b4d5607e2194cd0"
+  },
+  {
+    "file": "analysis/E7/scripts/report_mc.py",
+    "source": "最终回复/06_补充代码/analysis/E7/scripts/report_mc.py",
+    "source_sha256": "83b25e128f0cd3428e6ff478dbff751a24308266b8b523e53e265f996ba536f0",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "83b25e128f0cd3428e6ff478dbff751a24308266b8b523e53e265f996ba536f0"
+  },
+  {
+    "file": "analysis/E7/scripts/validate_mc.py",
+    "source": "最终回复/06_补充代码/analysis/E7/scripts/validate_mc.py",
+    "source_sha256": "52e10908c2923a44be79831b56b38e3312b44040657125d53a25b5644277e4d0",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "52e10908c2923a44be79831b56b38e3312b44040657125d53a25b5644277e4d0"
+  },
+  {
+    "file": "analysis/E9/bench_hydrus.py",
+    "source": "最终回复/06_补充代码/analysis/E9/bench_hydrus.py",
+    "source_sha256": "a35b96930cb485f6cbc9fbb5c4f7e17c8000a99e206b2532c2dff7a246fd6373",
+    "action": "repository-relative paths and central configuration/output directory defaults; analysis algorithms retained",
+    "assembled_sha256": "6b334237ffb6587276cdb2b019eaf6d29f712f3d3c55d8f801dcc0e1c55647df"
+  },
+  {
+    "file": "analysis/E9/bench_inference.py",
+    "source": "最终回复/06_补充代码/analysis/E9/bench_inference.py",
+    "source_sha256": "f35f741c0ce6f2b532e1b53e93da2fecb2df743ca5d14b7cf47aa41dfa4cdc97",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "05dc434b75ec37b191dc791449e5fc36e355fda296143904a6443d9f8180e341"
+  },
+  {
+    "file": "analysis/E9/break_even.py",
+    "source": "最终回复/06_补充代码/analysis/E9/break_even.py",
+    "source_sha256": "df079722b3ded807a433e594dbced7e333f5679acaff4b6af91b833ddbe6f101",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "1ebc45206844c70d38ba9cafb3aec98252a986de110b5f0ce592aa2350b947bf"
+  },
+  {
+    "file": "analysis/E9/collect_costs.py",
+    "source": "最终回复/06_补充代码/analysis/E9/collect_costs.py",
+    "source_sha256": "f010349e81dc1a228332f9526d4256d804c4c4836e66f92a64fba963b436ac16",
+    "action": "repository-relative default paths; analysis algorithms retained",
+    "assembled_sha256": "5b392d2811afc6ab8e8d5ee9386914d0173914f2c68a06993e44637ffe4ca831"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E1/e1_budget_comparison.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E1/e1_budget_comparison.csv",
+    "source_sha256": "8cbcea84bd91285e7a7fcf7f4d2141b843e23ac1e7f8cd844cbc2fee3415edc0",
+    "action": "copied",
+    "assembled_sha256": "8cbcea84bd91285e7a7fcf7f4d2141b843e23ac1e7f8cd844cbc2fee3415edc0"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E1/e1_results_long.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E1/e1_results_long.csv",
+    "source_sha256": "ab9c9505674f04571badc22b237552f9d59199c7e652f55c46c50a6278e02cea",
+    "action": "copied",
+    "assembled_sha256": "ab9c9505674f04571badc22b237552f9d59199c7e652f55c46c50a6278e02cea"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E10/high_noise/noise_mbe_demo_iid.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E10/high_noise/noise_mbe_demo_iid.csv",
+    "source_sha256": "21b41f369f6273374db1350ac5cd72e657c7dbc80e1fe58d901615a87facead6",
+    "action": "copied",
+    "assembled_sha256": "21b41f369f6273374db1350ac5cd72e657c7dbc80e1fe58d901615a87facead6"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E10/high_noise/noise_mbe_demo_ood_peak.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E10/high_noise/noise_mbe_demo_ood_peak.csv",
+    "source_sha256": "f5f6c4fc3cf12b229b58bf056b6a6fdf8f7054d00b3184a19841b4c6165e030c",
+    "action": "copied",
+    "assembled_sha256": "f5f6c4fc3cf12b229b58bf056b6a6fdf8f7054d00b3184a19841b4c6165e030c"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E10/high_noise/noise_mbe_demo_ood_peak_time.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E10/high_noise/noise_mbe_demo_ood_peak_time.csv",
+    "source_sha256": "ffa9ac328f0b2b4f18c2df60f20970131bc8c558afe597a566817ba4de078bb8",
+    "action": "copied",
+    "assembled_sha256": "ffa9ac328f0b2b4f18c2df60f20970131bc8c558afe597a566817ba4de078bb8"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E10/noise_mbe_demo_iid.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E10/noise_mbe_demo_iid.csv",
+    "source_sha256": "1e424758032b02ed3e614a15d98a8331f309f0aa3b53c0fe0273a0d662dc03da",
+    "action": "copied",
+    "assembled_sha256": "1e424758032b02ed3e614a15d98a8331f309f0aa3b53c0fe0273a0d662dc03da"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E10/noise_mbe_demo_ood_peak.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E10/noise_mbe_demo_ood_peak.csv",
+    "source_sha256": "3e936c034af881787e3ebf8aa736d82522a2bf04ffd35d187233dcb3206ad6d2",
+    "action": "copied",
+    "assembled_sha256": "3e936c034af881787e3ebf8aa736d82522a2bf04ffd35d187233dcb3206ad6d2"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E10/noise_mbe_demo_ood_peak_time.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E10/noise_mbe_demo_ood_peak_time.csv",
+    "source_sha256": "7b71ceec87d68b9e0ba56a53cac36183b34917c0d7d89c1945fab7abad1953dc",
+    "action": "copied",
+    "assembled_sha256": "7b71ceec87d68b9e0ba56a53cac36183b34917c0d7d89c1945fab7abad1953dc"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E10/source_stats/mbe_vs_error_scatter.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E10/source_stats/mbe_vs_error_scatter.csv",
+    "source_sha256": "3e2387552337c3c68a238618d1e23bed9ef24f8e9cf7f024a2aa6ff83d0fe3b1",
+    "action": "copied",
+    "assembled_sha256": "3e2387552337c3c68a238618d1e23bed9ef24f8e9cf7f024a2aa6ff83d0fe3b1"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E10/source_stats/mbe_vs_error_spearman.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E10/source_stats/mbe_vs_error_spearman.csv",
+    "source_sha256": "a5bb0e8c41d26e7081c7282dbed37dadcbd4b13ac07bdf792b3bc10450d3774f",
+    "action": "copied",
+    "assembled_sha256": "a5bb0e8c41d26e7081c7282dbed37dadcbd4b13ac07bdf792b3bc10450d3774f"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E10/source_stats/mbe_vs_error_spearman.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E10/source_stats/mbe_vs_error_spearman.json",
+    "source_sha256": "5930ebb501aab301463c0c1c3d64158cac35604f6c6441e89bc1208c863d4841",
+    "action": "copied",
+    "assembled_sha256": "5930ebb501aab301463c0c1c3d64158cac35604f6c6441e89bc1208c863d4841"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E10/threshold_analysis.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E10/threshold_analysis.csv",
+    "source_sha256": "737f130ac8712f5e9f59e8523189a234e05fcde8657e1c08b2dfdd6cd34aa776",
+    "action": "copied",
+    "assembled_sha256": "737f130ac8712f5e9f59e8523189a234e05fcde8657e1c08b2dfdd6cd34aa776"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E2/sigma_sensitivity_long.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E2/sigma_sensitivity_long.csv",
+    "source_sha256": "e2a1f141cf2d0a8f81cc56674172e5095eb0873947b9dbe5206cd14976b0f13e",
+    "action": "copied",
+    "assembled_sha256": "e2a1f141cf2d0a8f81cc56674172e5095eb0873947b9dbe5206cd14976b0f13e"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E2/sigma_sensitivity_summary.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E2/sigma_sensitivity_summary.csv",
+    "source_sha256": "18015263ec386a8f35824c127187c816ffdf8b35b03b04691f744aea4e531975",
+    "action": "copied",
+    "assembled_sha256": "18015263ec386a8f35824c127187c816ffdf8b35b03b04691f744aea4e531975"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E3/final_results.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E3/final_results.csv",
+    "source_sha256": "add16ad5eb8c4a52651a3c9198c39a63f66f7f45fe4a7505c8108e891af60c5d",
+    "action": "copied",
+    "assembled_sha256": "add16ad5eb8c4a52651a3c9198c39a63f66f7f45fe4a7505c8108e891af60c5d"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E3/search_ranking.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E3/search_ranking.csv",
+    "source_sha256": "842ef8ca68f0e764ca7ed3e7e76bf54655aea3660dccab71cf945bd811f1a206",
+    "action": "copied",
+    "assembled_sha256": "842ef8ca68f0e764ca7ed3e7e76bf54655aea3660dccab71cf945bd811f1a206"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E4/ks_removed_vs_retained.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E4/ks_removed_vs_retained.csv",
+    "source_sha256": "665be354a26ca1236b127731c2fea35ec764b402042db62ecce35c36355fbd7e",
+    "action": "copied",
+    "assembled_sha256": "665be354a26ca1236b127731c2fea35ec764b402042db62ecce35c36355fbd7e"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E4/ood_quantile_distance.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E4/ood_quantile_distance.csv",
+    "source_sha256": "8b3acd66657c7138253a96dd4a48fe8ac224c8f1cf3e04314930ebc65d0b5f78",
+    "action": "copied",
+    "assembled_sha256": "8b3acd66657c7138253a96dd4a48fe8ac224c8f1cf3e04314930ebc65d0b5f78"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E4/qc_counts.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E4/qc_counts.csv",
+    "source_sha256": "2f76830231322b99d3d6bfc14d8f5f1e2818330941ba7ee989f95f1a20239d1b",
+    "action": "copied",
+    "assembled_sha256": "2f76830231322b99d3d6bfc14d8f5f1e2818330941ba7ee989f95f1a20239d1b"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E4/qc_reasons.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E4/qc_reasons.csv",
+    "source_sha256": "d6b891c0807ba0fe6037db09ccc4ca8e857bca5b903881280ac7d74166d0c8d6",
+    "action": "copied",
+    "assembled_sha256": "d6b891c0807ba0fe6037db09ccc4ca8e857bca5b903881280ac7d74166d0c8d6"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E4/summary.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E4/summary.json",
+    "source_sha256": "4610a7065d381d73d517f3315b48d40c2fbc3d4cacee4c8717a44acdcf050218",
+    "action": "copied",
+    "assembled_sha256": "4610a7065d381d73d517f3315b48d40c2fbc3d4cacee4c8717a44acdcf050218"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E5/e5_qc_summary.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E5/e5_qc_summary.json",
+    "source_sha256": "fe1044e25af14c9b856655a8f8be6b85e390e52f0a155d497317b6a47e1f6384",
+    "action": "copied",
+    "assembled_sha256": "fe1044e25af14c9b856655a8f8be6b85e390e52f0a155d497317b6a47e1f6384"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E5/e5_results_realrain_s42.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E5/e5_results_realrain_s42.csv",
+    "source_sha256": "37cfc7eb3e953799539c47b7b43158a5212eb261ff492efa9ebfea69efcebc63",
+    "action": "copied",
+    "assembled_sha256": "37cfc7eb3e953799539c47b7b43158a5212eb261ff492efa9ebfea69efcebc63"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E5/events_meta.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E5/events_meta.json",
+    "source_sha256": "63472573e591a26efbd0071953e115499564c98be919fa379cdd6570be647e2f",
+    "action": "copied",
+    "assembled_sha256": "63472573e591a26efbd0071953e115499564c98be919fa379cdd6570be647e2f"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E5/events_raw.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E5/events_raw.csv",
+    "source_sha256": "cc0c976a2baec80dea13cd65a6c30c4994d401d46ae541cc4f4c7a8427c59501",
+    "action": "copied",
+    "assembled_sha256": "cc0c976a2baec80dea13cd65a6c30c4994d401d46ae541cc4f4c7a8427c59501"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E5/stats_compare_table.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E5/stats_compare_table.csv",
+    "source_sha256": "dc596c290d89b1e9c0cc919eb7039b732e44c56a94fff98dec0f4b995b5281e7",
+    "action": "copied",
+    "assembled_sha256": "dc596c290d89b1e9c0cc919eb7039b732e44c56a94fff98dec0f4b995b5281e7"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/E6E8_results_long.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/E6E8_results_long.csv",
+    "source_sha256": "520288d129dd655b61d24178d776c4129c70c4c3303a050db3fb22c651c443f7",
+    "action": "copied",
+    "assembled_sha256": "520288d129dd655b61d24178d776c4129c70c4c3303a050db3fb22c651c443f7"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/A_binned_errors.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/A_binned_errors.csv",
+    "source_sha256": "bb6ee8f5d2da4e4ae28774b3a5928558f6dcae70d8799edb9774842117c5b1d7",
+    "action": "copied",
+    "assembled_sha256": "bb6ee8f5d2da4e4ae28774b3a5928558f6dcae70d8799edb9774842117c5b1d7"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/A_subset_counts.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/A_subset_counts.csv",
+    "source_sha256": "4615341a81c05251a376860b119017af59d6b42b0c74f38c38a6d9b1a9758ae3",
+    "action": "copied",
+    "assembled_sha256": "4615341a81c05251a376860b119017af59d6b42b0c74f38c38a6d9b1a9758ae3"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/A_subsets.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/A_subsets.json",
+    "source_sha256": "4caa3df6e57437dbbc4471aaead543a3f6ab01b833812cd836ec1ecfb5614029",
+    "action": "copied",
+    "assembled_sha256": "4caa3df6e57437dbbc4471aaead543a3f6ab01b833812cd836ec1ecfb5614029"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/B_binned_errors.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/B_binned_errors.csv",
+    "source_sha256": "8c6e790e917a90aba8b98fef7d9695465d3512cb7fed21c56978a344ff68b169",
+    "action": "copied",
+    "assembled_sha256": "8c6e790e917a90aba8b98fef7d9695465d3512cb7fed21c56978a344ff68b169"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/B_subsets.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/B_subsets.json",
+    "source_sha256": "333dbd482eb7e6b45a735a706e71c1c7b84aa6dfe766282a42198e01264b6d50",
+    "action": "copied",
+    "assembled_sha256": "333dbd482eb7e6b45a735a706e71c1c7b84aa6dfe766282a42198e01264b6d50"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/convergence_report.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/convergence_report.csv",
+    "source_sha256": "b199e38c2968b38c3ada88b795f6b63e4c001fc834ece8cc7d404cd444208712",
+    "action": "copied",
+    "assembled_sha256": "b199e38c2968b38c3ada88b795f6b63e4c001fc834ece8cc7d404cd444208712"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/params/E6_extreme_peak_v1/lhs_params.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/params/E6_extreme_peak_v1/lhs_params.csv",
+    "source_sha256": "74dee5a54fd85bbb763a842afefaed0d011e2b7e0d4faf6cd6972ba35df00856",
+    "action": "copied",
+    "assembled_sha256": "74dee5a54fd85bbb763a842afefaed0d011e2b7e0d4faf6cd6972ba35df00856"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/params/E6_extreme_peaktime_v1/lhs_params.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/params/E6_extreme_peaktime_v1/lhs_params.csv",
+    "source_sha256": "a003c16858155429437070b4c6248e78e6992e00b1945b48b853b948c6d6c816",
+    "action": "copied",
+    "assembled_sha256": "a003c16858155429437070b4c6248e78e6992e00b1945b48b853b948c6d6c816"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/params/E8_joint_shift_v1/lhs_params.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/params/E8_joint_shift_v1/lhs_params.csv",
+    "source_sha256": "ab048b34ebe8b1f9a813fff6ec3886011593a1b906f35a500437e11d8f7e4ac9",
+    "action": "copied",
+    "assembled_sha256": "ab048b34ebe8b1f9a813fff6ec3886011593a1b906f35a500437e11d8f7e4ac9"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/params/sets_summary.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/params/sets_summary.json",
+    "source_sha256": "a75cd5fa1619d36ffab77a298db77333a7b401c2c4d70745b05c843aa17c232d",
+    "action": "copied",
+    "assembled_sha256": "a75cd5fa1619d36ffab77a298db77333a7b401c2c4d70745b05c843aa17c232d"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/severity_curve_long.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/severity_curve_long.csv",
+    "source_sha256": "53472b443b937dccc940b7e1bd721e9d29cb2bcf852edaf19b72b6cd7e963017",
+    "action": "copied",
+    "assembled_sha256": "53472b443b937dccc940b7e1bd721e9d29cb2bcf852edaf19b72b6cd7e963017"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/severity_curve_summary.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/severity_curve_summary.json",
+    "source_sha256": "c3841a37e643d9623843c3cf6dc249ba7c5b0250ab2e9c35faebca316c9d5b1c",
+    "action": "copied",
+    "assembled_sha256": "c3841a37e643d9623843c3cf6dc249ba7c5b0250ab2e9c35faebca316c9d5b1c"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8/outputs/severity_slopes.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8/outputs/severity_slopes.csv",
+    "source_sha256": "992a7c6612f3ccb11c6adf2afbd87db7834c37f2c9ed90bc7a73dd41b58fa7e0",
+    "action": "copied",
+    "assembled_sha256": "992a7c6612f3ccb11c6adf2afbd87db7834c37f2c9ed90bc7a73dd41b58fa7e0"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E6E8_eval_status.tsv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E6E8_eval_status.tsv",
+    "source_sha256": "d5a346b3e1d7afcd84978c1e9cbd03488e5756bfd04e23b27ff42cf0ef60e9d8",
+    "action": "copied",
+    "assembled_sha256": "d5a346b3e1d7afcd84978c1e9cbd03488e5756bfd04e23b27ff42cf0ef60e9d8"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E7/mc_screening_summary.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E7/mc_screening_summary.json",
+    "source_sha256": "429b7a1340865ce607516edd3dbc467e993a79d51fd4f1944dbe6538f4dbd95a",
+    "action": "copied",
+    "assembled_sha256": "429b7a1340865ce607516edd3dbc467e993a79d51fd4f1944dbe6538f4dbd95a"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E7/validation_results.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E7/validation_results.json",
+    "source_sha256": "37852ca9cb6e133193b62325db30016fd3b9bc104acf6266694a6200d34c79a0",
+    "action": "copied",
+    "assembled_sha256": "37852ca9cb6e133193b62325db30016fd3b9bc104acf6266694a6200d34c79a0"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E7/validation_table.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E7/validation_table.csv",
+    "source_sha256": "bb2f05bcad53e8b3b2ce79217b7b1321e288ed92a3c9310ad492f580bb74ba2b",
+    "action": "copied",
+    "assembled_sha256": "bb2f05bcad53e8b3b2ce79217b7b1321e288ed92a3c9310ad492f580bb74ba2b"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E9/bench_hydrus_summary.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E9/bench_hydrus_summary.json",
+    "source_sha256": "caf01fae58a374045d160076c99fd3dcc6904719b408f3cc7465ee9381c42212",
+    "action": "copied",
+    "assembled_sha256": "caf01fae58a374045d160076c99fd3dcc6904719b408f3cc7465ee9381c42212"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E9/bench_infer_cpu1.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E9/bench_infer_cpu1.json",
+    "source_sha256": "ea2bb3ca1feba5fe73a3a810c42d51436e709eb33bb6e8b4b85d8960bc61987f",
+    "action": "copied",
+    "assembled_sha256": "ea2bb3ca1feba5fe73a3a810c42d51436e709eb33bb6e8b4b85d8960bc61987f"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E9/bench_infer_cpuN.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E9/bench_infer_cpuN.json",
+    "source_sha256": "2b5bec1d0fc679b51a4d47e9222d8ba0bc03dbe53b2af331ac1daf06d8075c0a",
+    "action": "copied",
+    "assembled_sha256": "2b5bec1d0fc679b51a4d47e9222d8ba0bc03dbe53b2af331ac1daf06d8075c0a"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E9/bench_infer_gpu.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E9/bench_infer_gpu.json",
+    "source_sha256": "d2efca9a3c9610626d084dfeda92f81f4af6e8f5340253f13797c268d3a9e996",
+    "action": "copied",
+    "assembled_sha256": "d2efca9a3c9610626d084dfeda92f81f4af6e8f5340253f13797c268d3a9e996"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E9/costs_summary.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E9/costs_summary.csv",
+    "source_sha256": "503d69f8da599c4cccce807410ba4355b1808dcd3c68ee2dd8db47441602fe3c",
+    "action": "copied",
+    "assembled_sha256": "503d69f8da599c4cccce807410ba4355b1808dcd3c68ee2dd8db47441602fe3c"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/E9/costs_summary.json",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/E9/costs_summary.json",
+    "source_sha256": "d12f5a4a57d6a67c03f2342073a20f6b1430918123316603ae15e135566f12d7",
+    "action": "copied",
+    "assembled_sha256": "d12f5a4a57d6a67c03f2342073a20f6b1430918123316603ae15e135566f12d7"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/实验状态总表_20260723.csv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/实验状态总表_20260723.csv",
+    "source_sha256": "2fa01ecd4efa5fd872380f7946550e4de98c556c0347ac58b92d984cec29bbfe",
+    "action": "copied",
+    "assembled_sha256": "2fa01ecd4efa5fd872380f7946550e4de98c556c0347ac58b92d984cec29bbfe"
+  },
+  {
+    "file": "data/frozen_results/server_audit_20260723/监控/monitor_snapshots.tsv",
+    "source": "最终回复/06_补充代码/frozen_results/server_audit_20260723/监控/monitor_snapshots.tsv",
+    "source_sha256": "b534175f6e7433fd927430251e73ec92476c023e5b0c5770d7d2f4f2926ea1ca",
+    "action": "copied",
+    "assembled_sha256": "b534175f6e7433fd927430251e73ec92476c023e5b0c5770d7d2f4f2926ea1ca"
+  },
+  {
+    "file": "data/frozen_results/training_manifest_detailed.csv",
+    "source": "最终回复/06_补充代码/frozen_results/training_manifest_detailed.csv",
+    "source_sha256": "2476ed99076060eeeb648cc50f0a824522a7e0ec8dc15b50edb50e1773edc6c7",
+    "action": "copied",
+    "assembled_sha256": "2476ed99076060eeeb648cc50f0a824522a7e0ec8dc15b50edb50e1773edc6c7"
+  },
+  {
+    "file": "data/frozen_results/training_manifest_summary.csv",
+    "source": "最终回复/06_补充代码/frozen_results/training_manifest_summary.csv",
+    "source_sha256": "df9a05773c661fdbc65a9a60cb1f0f47ed1996b04621ac837b3a3fcafca459ee",
+    "action": "copied",
+    "assembled_sha256": "df9a05773c661fdbc65a9a60cb1f0f47ed1996b04621ac837b3a3fcafca459ee"
+  },
+  {
+    "file": "data/frozen_results/E11/bench_hydrus_multiprocess.csv",
+    "source": "最终回复/06_补充代码/analysis/E11/bench_hydrus_multiprocess.csv",
+    "source_sha256": "5ad8318d5475a57ed6948dee19bb0e686c752b019319deafd5c6561fb392f3c3",
+    "action": "copied",
+    "assembled_sha256": "5ad8318d5475a57ed6948dee19bb0e686c752b019319deafd5c6561fb392f3c3"
+  },
+  {
+    "file": "data/frozen_results/E11/bench_hydrus_multiprocess.json",
+    "source": "最终回复/06_补充代码/analysis/E11/bench_hydrus_multiprocess.json",
+    "source_sha256": "427758fbbf33421f8867ef6fea5a0cac9bfd1d1ad0aff110d0dd3bfb5dee926c",
+    "action": "copied",
+    "assembled_sha256": "427758fbbf33421f8867ef6fea5a0cac9bfd1d1ad0aff110d0dd3bfb5dee926c"
+  },
+  {
+    "file": "data/plot_inputs/corrected_field_evidence/SHA256SUMS.json",
+    "source": "最终回复/07_源文件/figure_data/corrected_field_evidence/SHA256SUMS.json",
+    "source_sha256": "92e7e102400c4b70bac74a68d3adc63c95b5a174f5ea7fe8377904ad0f3fb263",
+    "action": "copied",
+    "assembled_sha256": "92e7e102400c4b70bac74a68d3adc63c95b5a174f5ea7fe8377904ad0f3fb263"
+  },
+  {
+    "file": "data/plot_inputs/corrected_field_evidence/corrected_field_provenance.json",
+    "source": "最终回复/07_源文件/figure_data/corrected_field_evidence/corrected_field_provenance.json",
+    "source_sha256": "68675ba523a79af1202181cd886cca95af7ec28f8c3bdedd8953b8299b1e49c8",
+    "action": "copied",
+    "assembled_sha256": "68675ba523a79af1202181cd886cca95af7ec28f8c3bdedd8953b8299b1e49c8"
+  },
+  {
+    "file": "data/plot_inputs/corrected_field_evidence/corrected_figure_manifest.json",
+    "source": "最终回复/07_源文件/figure_data/corrected_field_evidence/corrected_figure_manifest.json",
+    "source_sha256": "579840148fd71cd8b5286dc68977037b8060d8d2bcf0c2a9efadef64c23e95f8",
+    "action": "copied",
+    "assembled_sha256": "579840148fd71cd8b5286dc68977037b8060d8d2bcf0c2a9efadef64c23e95f8"
+  },
+  {
+    "file": "data/plot_inputs/corrected_field_evidence/corrected_process_and_case_fields.npz",
+    "source": "最终回复/07_源文件/figure_data/corrected_field_evidence/corrected_process_and_case_fields.npz",
+    "source_sha256": "19e066110963b7b4348b8bb0b18a21f40dbb78bf0e284f024fa65e97646206ab",
+    "action": "copied",
+    "assembled_sha256": "19e066110963b7b4348b8bb0b18a21f40dbb78bf0e284f024fa65e97646206ab"
+  },
+  {
+    "file": "data/plot_inputs/corrected_field_evidence/corrected_regime_gain_summary.csv",
+    "source": "最终回复/07_源文件/figure_data/corrected_field_evidence/corrected_regime_gain_summary.csv",
+    "source_sha256": "cab0547591fc42341b16795ae3444d225a5c1aa9904783016013d455e80b2316",
+    "action": "copied",
+    "assembled_sha256": "cab0547591fc42341b16795ae3444d225a5c1aa9904783016013d455e80b2316"
+  },
+  {
+    "file": "data/plot_inputs/corrected_field_evidence/corrected_regime_heatmaps.npz",
+    "source": "最终回复/07_源文件/figure_data/corrected_field_evidence/corrected_regime_heatmaps.npz",
+    "source_sha256": "e35c09d987659e1879da11254b253c6f8d19ca55c2cc122c75c32f5da534ea3e",
+    "action": "copied",
+    "assembled_sha256": "e35c09d987659e1879da11254b253c6f8d19ca55c2cc122c75c32f5da534ea3e"
+  },
+  {
+    "file": "data/plot_inputs/corrected_field_evidence/corrected_regime_summary.csv",
+    "source": "最终回复/07_源文件/figure_data/corrected_field_evidence/corrected_regime_summary.csv",
+    "source_sha256": "a6ed3acc1d00f10221ae0308fba1694f37dffdfbbbc0c9f8abcfcbe1e9ebbf7e",
+    "action": "copied",
+    "assembled_sha256": "a6ed3acc1d00f10221ae0308fba1694f37dffdfbbbc0c9f8abcfcbe1e9ebbf7e"
+  },
+  {
+    "file": "data/plot_inputs/corrected_field_evidence/representative_case_selection.csv",
+    "source": "最终回复/07_源文件/figure_data/corrected_field_evidence/representative_case_selection.csv",
+    "source_sha256": "2755d020b3a3a19b356b2663dda785fb1a53984644dccc44101bf5cc205d0e32",
+    "action": "copied",
+    "assembled_sha256": "2755d020b3a3a19b356b2663dda785fb1a53984644dccc44101bf5cc205d0e32"
+  },
+  {
+    "file": "data/plot_inputs/revision_breakthrough.csv",
+    "source": "最终回复/07_源文件/figure_data/revision_breakthrough.csv",
+    "source_sha256": "88a5caa211df1b006aef47bd5b0916526f044061c8000e995daadffaef267481",
+    "action": "copied",
+    "assembled_sha256": "88a5caa211df1b006aef47bd5b0916526f044061c8000e995daadffaef267481"
+  },
+  {
+    "file": "data/plot_inputs/revision_main_benchmark.csv",
+    "source": "最终回复/07_源文件/figure_data/revision_main_benchmark.csv",
+    "source_sha256": "31f2ad555c4cf770abab05d6bee660ecd8146aee9d00023b593aa95404a2bf76",
+    "action": "copied",
+    "assembled_sha256": "31f2ad555c4cf770abab05d6bee660ecd8146aee9d00023b593aa95404a2bf76"
+  },
+  {
+    "file": "data/plot_inputs/parameters_iid.csv.gz",
+    "source": "终极版论文项目_lx/experiments/qtop_func/runs/iid_medium_v1/data/parameters/lhs_params.csv",
+    "source_sha256": "074f4aea37c4d690603a7411e30c75acd92cd6006585b8ff8c9f8cfdee3d93c1",
+    "action": "losslessly compressed parameter table; no simulation fields",
+    "assembled_sha256": "8c3896ad92fb2f5f7c4d20c30f39fc393888ec45249e5389cb3321559de43181"
+  },
+  {
+    "file": "data/plot_inputs/parameters_ood_peak.csv.gz",
+    "source": "终极版论文项目_lx/experiments/qtop_func/runs/ood_peak_medium_v1/data/parameters/lhs_params.csv",
+    "source_sha256": "afd668dfc8b9cd7f65dadc621c613f0fe2e921467ae63b8f51b62573c16b4d74",
+    "action": "losslessly compressed parameter table; no simulation fields",
+    "assembled_sha256": "332df71fdde37ec07952a1c941030920e57b1330a931c518fb7b051e4fea0038"
+  },
+  {
+    "file": "data/plot_inputs/parameters_ood_peak_time.csv.gz",
+    "source": "终极版论文项目_lx/experiments/qtop_func/runs/ood_peak_time_medium_v2/data/parameters/lhs_params.csv",
+    "source_sha256": "c3bdcd5aa811245a29fa30b0d278b43e0052c6c9dd24b772b4b06de141fed6bd",
+    "action": "losslessly compressed parameter table; no simulation fields",
+    "assembled_sha256": "2613cc0cda08f0e45869a7333d1d5f71d578bd728dad126422f43d8426f83606"
+  },
+  {
+    "file": "data/plot_inputs/sparse_crossres.json",
+    "source": "终极版论文项目_lx/paper/si_numbers.json",
+    "source_sha256": "76932f4ee6bc213e403765162cc2b43ae41f9bddd816ef65932d73aeb53a8cc3",
+    "action": "extracted the retained sparse/cross-resolution plot inputs only",
+    "assembled_sha256": "5fead212ec221ad008ab3e7d15e98628cdff36956a217193a543a121ff68d024"
+  },
+  {
+    "file": "plotting/generate_revision_figures.py",
+    "source": "最终回复/07_源文件/scripts/generate_revision_figures.py",
+    "source_sha256": "7ef0c4785d2a51098703be7e42618ef63eb978b9fb86c6dfed706f724dafb2ee",
+    "action": "portable input/output paths and CLI",
+    "assembled_sha256": "aa4e761307a0144bd03d2e38ec15926c82187e0cbb7981057c2554af56f6033c"
+  },
+  {
+    "file": "plotting/generate_restored_figures.py",
+    "source": "最终回复/07_源文件/scripts/generate_restored_figures.py",
+    "source_sha256": "5851aef03e4984d341ca8b5e1e0a70f69378987aefc8087fa68d9fa4a3e3fcb7",
+    "action": "recovered missing final plotting script; portable paths",
+    "assembled_sha256": "ecb346f3382593c39448075d139eb7cbd29ac45a8170d2d92eb771312c31d3f8"
+  },
+  {
+    "file": "plotting/generate_corrected_field_figures.py",
+    "source": "最终回复/07_源文件/scripts/generate_corrected_field_figures.py",
+    "source_sha256": "ef24b98810c106abecfa099a2d3c3ed2671d87b51a8ea89c3b6d867b5b0c5793",
+    "action": "generated reports no longer overwrite frozen input data",
+    "assembled_sha256": "06d3fe1a22359b6fae893677e104169cd2ee1ac398771ec26d22544411f836bc"
+  },
+  {
+    "file": "plotting/generate_task_setup.py",
+    "source": "最终回复/07_源文件/scripts/generate_all_figures.py",
+    "source_sha256": "c6216f3a4c086ace2c011d2423c3338ccaf1eaa47243980b4f317274776f3b45",
+    "action": "extracted only the retained Fig. 1 routines; excluded superseded plots",
+    "assembled_sha256": "11317d4580dc818003ed4cba7194ac89cb230a94b8acc929d329703778b682c2"
+  },
+  {
+    "file": "plotting/generate_supplementary_context.py",
+    "source": "最终回复/06_补充代码/pipeline/generate_si_figures.py",
+    "source_sha256": "5b61b8221c7c113b75447b34b7c7d1bb00aa4d954686d51cfaf1db1f04e3e458",
+    "action": "extracted only retained Fig. S1/S5 routines; removed superseded supplementary plots",
+    "assembled_sha256": "616d3467cd93d0e1f82e6b6ec64c81032ceb7e3753cf10561028c6ba9526f8a0"
+  },
+  {
+    "file": "plotting/diagrams/fig1d_workflow.tex",
+    "source": "最终回复/07_源文件/figures/fig1d_workflow.tex",
+    "source_sha256": "5dfec15727167e8b406f30b9fad7880347119fc1c27b2f844059ee9062b49d1c",
+    "action": "copied",
+    "assembled_sha256": "5dfec15727167e8b406f30b9fad7880347119fc1c27b2f844059ee9062b49d1c"
+  },
+  {
+    "file": "plotting/diagrams/fig2_architecture.tex",
+    "source": "最终回复/07_源文件/figures/fig2_architecture.tex",
+    "source_sha256": "2757e1593b722be7573464c430aff69396ed2ead11beba8193b3d0e95a855dc1",
+    "action": "copied",
+    "assembled_sha256": "2757e1593b722be7573464c430aff69396ed2ead11beba8193b3d0e95a855dc1"
+  },
+  {
+    "file": "docs/patches/fno_padding.patch",
+    "source": "最终回复/06_补充代码/analysis/E3/fno_padding.patch",
+    "source_sha256": "b62abf5f196dcc66fcfe6842f1b4d5430364ea0db2f156b6dbabf2c5a16a0d67",
+    "action": "provided final-revision patch; applied to src/models/fno.py",
+    "assembled_sha256": "b62abf5f196dcc66fcfe6842f1b4d5430364ea0db2f156b6dbabf2c5a16a0d67"
+  }
+]

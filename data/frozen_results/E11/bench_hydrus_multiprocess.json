@@ -1,0 +1,301 @@
+{
+  "metadata": {
+    "created_unix": 1784797671.5492995,
+    "repo": "/root/autodl-tmp/repo",
+    "config": "/root/autodl-tmp/workspace/03_补充实验/E9_成本核算breakeven/configs/e9_bench_hydrus_iid.yaml",
+    "params_csv": "/root/autodl-tmp/repo/experiments/qtop_func/runs/g4_regshift_iid_s42/data/parameters/lhs_params.csv",
+    "exe": "/root/autodl-tmp/hydrus_exe",
+    "exe_sha256": "468273a93cc8d2cc2df7cf7d539dcb0070a3cf2d420158f15563337e6c7293bb",
+    "sample_start": 128,
+    "sample_end_inclusive": 319,
+    "n_samples_per_cell": 192,
+    "repeats_requested": 2,
+    "process_counts": [
+      1,
+      2,
+      4,
+      8,
+      16
+    ],
+    "warmup_samples": 8,
+    "timing_scope": "input writing + HYDRUS solve + output parsing; workspace cleanup included",
+    "throughput_definition": "attempted samples divided by measured wall time; successful throughput also reported",
+    "hardware": {
+      "platform": "Linux-5.15.0-25-generic-x86_64-with-glibc2.35",
+      "python": "3.12.3",
+      "cpu_model": "Intel(R) Xeon(R) Platinum 8470Q",
+      "logical_cpu_count": 208,
+      "lscpu": "Architecture:                    x86_64\nCPU op-mode(s):                  32-bit, 64-bit\nAddress sizes:                   46 bits physical, 57 bits virtual\nByte Order:                      Little Endian\nCPU(s):                          208\nOn-line CPU(s) list:             0-207\nVendor ID:                       GenuineIntel\nModel name:                      Intel(R) Xeon(R) Platinum 8470Q\nCPU family:                      6\nModel:                           143\nThread(s) per core:              2\nCore(s) per socket:              52\nSocket(s):                       2\nStepping:                        8\nFrequency boost:                 enabled\nCPU max MHz:                     3800.0000\nCPU min MHz:                     800.0000\nBogoMIPS:                        4200.00\nFlags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid dca sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb cat_l3 cat_l2 cdp_l3 invpcid_single intel_ppin cdp_l2 ssbd mba ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb intel_pt avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local split_lock_detect avx_vnni avx512_bf16 wbnoinvd dtherm ida arat pln pts avx512vbmi umip pku ospke waitpkg avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg tme avx512_vpopcntdq la57 rdpid bus_lock_detect cldemote movdiri movdir64b enqcmd fsrm md_clear serialize tsxldtrk pconfig arch_lbr avx512_fp16 flush_l1d arch_capabilities\nVirtualization:                  VT-x\nL1d cache:                       4.9 MiB (104 instances)\nL1i cache:                       3.3 MiB (104 instances)\nL2 cache:                        208 MiB (104 instances)\nL3 cache:                        210 MiB (2 instances)\nNUMA node(s):                    2\nNUMA node0 CPU(s):               0-51,104-155\nNUMA node1 CPU(s):               52-103,156-207\nVulnerability Itlb multihit:     Not affected\nVulnerability L1tf:              Not affected\nVulnerability Mds:               Not affected\nVulnerability Meltdown:          Not affected\nVulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp\nVulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:        Mitigation; Enhanced IBRS, IBPB conditional, RSB filling\nVulnerability Srbds:             Not affected\nVulnerability Tsx async abort:   Not affected\n"
+    },
+    "warmup_success": 0
+  },
+  "records": [
+    {
+      "repeat": 1,
+      "processes": 4,
+      "n_attempted": 192,
+      "n_success": 182,
+      "n_fail": 10,
+      "wall_seconds": 46.02757930196822,
+      "attempted_throughput_per_s": 4.171412073191296,
+      "successful_throughput_per_s": 3.954151027712582,
+      "worker_elapsed_median_seconds": 0.3362935949116945,
+      "worker_elapsed_mean_seconds": 0.8339829755035074,
+      "failure_examples": [
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure"
+      ]
+    },
+    {
+      "repeat": 1,
+      "processes": 1,
+      "n_attempted": 192,
+      "n_success": 182,
+      "n_fail": 10,
+      "wall_seconds": 159.8588649239391,
+      "attempted_throughput_per_s": 1.2010594476030694,
+      "successful_throughput_per_s": 1.1385042680404096,
+      "worker_elapsed_median_seconds": 0.3353829197585583,
+      "worker_elapsed_mean_seconds": 0.8321379154804163,
+      "failure_examples": [
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure"
+      ]
+    },
+    {
+      "repeat": 1,
+      "processes": 16,
+      "n_attempted": 192,
+      "n_success": 182,
+      "n_fail": 10,
+      "wall_seconds": 41.97309851273894,
+      "attempted_throughput_per_s": 4.574358501117746,
+      "successful_throughput_per_s": 4.336110662517863,
+      "worker_elapsed_median_seconds": 0.3354712501168251,
+      "worker_elapsed_mean_seconds": 0.8355026677891146,
+      "failure_examples": [
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure"
+      ]
+    },
+    {
+      "repeat": 1,
+      "processes": 2,
+      "n_attempted": 192,
+      "n_success": 182,
+      "n_fail": 10,
+      "wall_seconds": 80.57480299659073,
+      "attempted_throughput_per_s": 2.3828789256627023,
+      "successful_throughput_per_s": 2.2587706482844365,
+      "worker_elapsed_median_seconds": 0.3344933046028018,
+      "worker_elapsed_mean_seconds": 0.8295827762728246,
+      "failure_examples": [
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure"
+      ]
+    },
+    {
+      "repeat": 1,
+      "processes": 8,
+      "n_attempted": 192,
+      "n_success": 182,
+      "n_fail": 10,
+      "wall_seconds": 43.0554891563952,
+      "attempted_throughput_per_s": 4.459361715821582,
+      "successful_throughput_per_s": 4.227103293122541,
+      "worker_elapsed_median_seconds": 0.33883508667349815,
+      "worker_elapsed_mean_seconds": 0.837815726622163,
+      "failure_examples": [
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure"
+      ]
+    },
+    {
+      "repeat": 2,
+      "processes": 8,
+      "n_attempted": 192,
+      "n_success": 182,
+      "n_fail": 10,
+      "wall_seconds": 43.67698406428099,
+      "attempted_throughput_per_s": 4.395907916110387,
+      "successful_throughput_per_s": 4.166954378812971,
+      "worker_elapsed_median_seconds": 0.3373168334364891,
+      "worker_elapsed_mean_seconds": 0.8388713701278903,
+      "failure_examples": [
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure"
+      ]
+    },
+    {
+      "repeat": 2,
+      "processes": 2,
+      "n_attempted": 192,
+      "n_success": 182,
+      "n_fail": 10,
+      "wall_seconds": 80.899583382532,
+      "attempted_throughput_per_s": 2.373312592873711,
+      "successful_throughput_per_s": 2.2497025619948716,
+      "worker_elapsed_median_seconds": 0.3347643492743373,
+      "worker_elapsed_mean_seconds": 0.8328998051874805,
+      "failure_examples": [
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure"
+      ]
+    },
+    {
+      "repeat": 2,
+      "processes": 16,
+      "n_attempted": 192,
+      "n_success": 182,
+      "n_fail": 10,
+      "wall_seconds": 41.05655325204134,
+      "attempted_throughput_per_s": 4.676476342798058,
+      "successful_throughput_per_s": 4.432909866610659,
+      "worker_elapsed_median_seconds": 0.3412710288539529,
+      "worker_elapsed_mean_seconds": 0.8343789234543996,
+      "failure_examples": [
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure"
+      ]
+    },
+    {
+      "repeat": 2,
+      "processes": 1,
+      "n_attempted": 192,
+      "n_success": 182,
+      "n_fail": 10,
+      "wall_seconds": 159.37233565747738,
+      "attempted_throughput_per_s": 1.2047260222918859,
+      "successful_throughput_per_s": 1.1419798752975168,
+      "worker_elapsed_median_seconds": 0.33403414580971,
+      "worker_elapsed_mean_seconds": 0.8295987202921727,
+      "failure_examples": [
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure"
+      ]
+    },
+    {
+      "repeat": 2,
+      "processes": 4,
+      "n_attempted": 192,
+      "n_success": 182,
+      "n_fail": 10,
+      "wall_seconds": 46.01278936676681,
+      "attempted_throughput_per_s": 4.172752894191498,
+      "successful_throughput_per_s": 3.955422014285691,
+      "worker_elapsed_median_seconds": 0.3372399741783738,
+      "worker_elapsed_mean_seconds": 0.8320854162739124,
+      "failure_examples": [
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure",
+        "unknown failure"
+      ]
+    }
+  ],
+  "aggregates": [
+    {
+      "processes": 1,
+      "n_repeats": 2,
+      "n_attempted_total": 384,
+      "n_success_total": 364,
+      "n_fail_total": 20,
+      "wall_seconds_mean": 159.61560029070824,
+      "wall_seconds_std": 0.34402814356080597,
+      "attempted_throughput_per_s_mean": 1.2028927349474776,
+      "attempted_throughput_per_s_std": 0.0025926598261890896,
+      "successful_throughput_per_s_mean": 1.1402420716689632,
+      "successful_throughput_per_s_std": 0.0024576254602416497,
+      "speedup_vs_1_process": 1.0,
+      "parallel_efficiency": 1.0
+    },
+    {
+      "processes": 2,
+      "n_repeats": 2,
+      "n_attempted_total": 384,
+      "n_success_total": 364,
+      "n_fail_total": 20,
+      "wall_seconds_mean": 80.73719318956137,
+      "wall_seconds_std": 0.22965441329545394,
+      "attempted_throughput_per_s_mean": 2.3780957592682066,
+      "attempted_throughput_per_s_std": 0.006764418786183064,
+      "successful_throughput_per_s_mean": 2.254236605139654,
+      "successful_throughput_per_s_std": 0.006412105307736102,
+      "speedup_vs_1_process": 1.9769807316793233,
+      "parallel_efficiency": 0.9884903658396617
+    },
+    {
+      "processes": 4,
+      "n_repeats": 2,
+      "n_attempted_total": 384,
+      "n_success_total": 364,
+      "n_fail_total": 20,
+      "wall_seconds_mean": 46.020184334367514,
+      "wall_seconds_std": 0.010458063474224148,
+      "attempted_throughput_per_s_mean": 4.172082483691397,
+      "attempted_throughput_per_s_std": 0.0009481036216001221,
+      "successful_throughput_per_s_mean": 3.9547865209991366,
+      "successful_throughput_per_s_std": 0.000898723224642332,
+      "speedup_vs_1_process": 3.468374496312478,
+      "parallel_efficiency": 0.8670936240781195
+    },
+    {
+      "processes": 8,
+      "n_repeats": 2,
+      "n_attempted_total": 384,
+      "n_success_total": 364,
+      "n_fail_total": 20,
+      "wall_seconds_mean": 43.36623661033809,
+      "wall_seconds_std": 0.43946326383895074,
+      "attempted_throughput_per_s_mean": 4.427634815965984,
+      "attempted_throughput_per_s_std": 0.044868612067838994,
+      "successful_throughput_per_s_mean": 4.197028835967756,
+      "successful_throughput_per_s_std": 0.042531705189305616,
+      "speedup_vs_1_process": 3.6808226430591167,
+      "parallel_efficiency": 0.4601028303823896
+    },
+    {
+      "processes": 16,
+      "n_repeats": 2,
+      "n_attempted_total": 384,
+      "n_success_total": 364,
+      "n_fail_total": 20,
+      "wall_seconds_mean": 41.51482588239014,
+      "wall_seconds_std": 0.6480953691036673,
+      "attempted_throughput_per_s_mean": 4.625417421957902,
+      "attempted_throughput_per_s_std": 0.07220821833228282,
+      "successful_throughput_per_s_mean": 4.384510264564261,
+      "successful_throughput_per_s_std": 0.06844737362747655,
+      "speedup_vs_1_process": 3.8452451225086697,
+      "parallel_efficiency": 0.24032782015679185
+    }
+  ]
+}

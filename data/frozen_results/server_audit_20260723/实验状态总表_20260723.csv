@@ -1,0 +1,13 @@
+experiment,planned,completed_at_audit,running_or_queued,status,paper_use,main_risk
+E0,9,9,0,complete,main_or_SI,"historical g4 labels were actually unbounded"
+E1,36,36,0,complete,main_or_SI,"bounded model is not universally best"
+E2,18,18,0,complete,SI,"no universal sigma optimum; historical paper point mislabeled"
+E3_search,36,36,0,complete,SI,"single-seed IID search only"
+E3_final,9,9,0,complete,main,"final FNO remains substantially weaker than DeepONet/RegShift"
+E4,1,1,0,complete,main_and_SI,"QC preserves forcing OOD but biases soil parameters"
+E5,3,3,0,complete_negative,SI_and_discussion,"absolute external error is very large"
+E6_E8_original_eval,24,24,0,complete,main_or_SI,"joint low-Ks stratum is much harder; do not impose a monotone joint severity rank"
+E6_E8_bounded_eval,9,9,0,complete,main_or_SI,"bounding helps selectively in one-dimensional shifts but hurts all three matched joint comparisons"
+E7,1,1,0,complete_negative,SI_and_discussion,"top-50 recall 0; all scenarios exceed MBE threshold"
+E9,1,1,0,complete,main_and_SI,"10^4 MC below full-cost break-even"
+E10,1,1,0,complete,main_and_SI,"10% MBE threshold is high-recall but low-precision"

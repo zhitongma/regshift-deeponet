@@ -1,0 +1,37 @@
+{
+  "checkpoint": "/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_iid_s42/results/checkpoints/m1_best.pt",
+  "config": "/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_iid_s42/metadata/config.yaml",
+  "device": "cpu",
+  "device_name": "cpu",
+  "torch_threads": 20,
+  "torch_threads_note": "default",
+  "n_trunk_points": 4949,
+  "warmup": 1,
+  "repeats": 5,
+  "batches": {
+    "1": {
+      "batch_size": 1,
+      "total_median_s": 0.010044099763035774,
+      "total_mean_s": 0.010841040313243866,
+      "total_p10_s": 0.00775417685508728,
+      "total_p90_s": 0.01456831768155098,
+      "per_sample_median_ms": 10.044099763035774
+    },
+    "8": {
+      "batch_size": 8,
+      "total_median_s": 0.18691022507846355,
+      "total_mean_s": 0.18557605929672719,
+      "total_p10_s": 0.17010187730193138,
+      "total_p90_s": 0.19610321708023548,
+      "per_sample_median_ms": 23.363778134807944
+    },
+    "32": {
+      "batch_size": 32,
+      "total_median_s": 0.7940993048250675,
+      "total_mean_s": 0.8075950268656016,
+      "total_p10_s": 0.7904323004186153,
+      "total_p90_s": 0.8329119719564915,
+      "per_sample_median_ms": 24.81560327578336
+    }
+  }
+}

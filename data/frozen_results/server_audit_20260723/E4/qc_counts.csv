@@ -1,0 +1,10 @@
+scene,subset,n_csv,n_sim_ok(pre_qc),n_sim_failed,n_qc_failed,n_post_qc,qc_removal_rate,total_attrition_rate
+iid,train,768,709,59,75,634,0.1058,0.1745
+iid,val,128,119,9,14,105,0.1176,0.1797
+iid,test,128,121,7,9,112,0.0744,0.1250
+ood_peak,train,768,717,51,69,648,0.0962,0.1562
+ood_peak,val,128,117,11,15,102,0.1282,0.2031
+ood_peak,test,96,88,8,13,75,0.1477,0.2188
+ood_peak_time,train,768,718,50,81,637,0.1128,0.1706
+ood_peak_time,val,128,123,5,8,115,0.0650,0.1016
+ood_peak_time,test,96,87,9,11,76,0.1264,0.2083

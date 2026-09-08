@@ -1,0 +1,17 @@
+metric,train_pool,real_events
+acf_lag1,0.932 ± 0.035,0.276 ± 0.198
+acf_lag2,0.834 ± 0.071,0.041 ± 0.215
+acf_lag3,0.713 ± 0.109,0.068 ± 0.184
+acf_lag4,0.576 ± 0.150,0.013 ± 0.148
+acf_lag5,0.432 ± 0.191,0.122 ± 0.145
+acf_lag6,0.288 ± 0.228,0.111 ± 0.176
+acf_lag7,0.150 ± 0.257,-0.012 ± 0.111
+acf_lag8,0.028 ± 0.275,-0.017 ± 0.098
+peak_to_mean_ratio,1.730 ± 0.362,11.984 ± 5.864
+wet_frac_q_gt_0.5cmh,0.973 ± 0.059,0.111 ± 0.054
+frac_at_envelope_floor(<=0.1),0.000 ± 0.000,0.641 ± 0.200
+peak_time_quartiles_h,9/19/38,18/22/30
+n_hydrographs,768,9
+KS_intensity_D(p),0.867 (p=2.12e-282),
+KS_peak_time_D(p),0.176 (p=9.21e-01),
+real_events_dry_frac_before_rescale,,0.641

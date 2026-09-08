@@ -1,0 +1,7 @@
+scene,reason_category,count
+iid,solute_balance,64
+iid,water_balance,34
+ood_peak,solute_balance,63
+ood_peak,water_balance,34
+ood_peak_time,solute_balance,61
+ood_peak_time,water_balance,39

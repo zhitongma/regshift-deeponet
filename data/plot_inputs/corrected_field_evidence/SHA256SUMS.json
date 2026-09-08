@@ -1,0 +1,7 @@
+{
+  "corrected_field_provenance.json": "68675ba523a79af1202181cd886cca95af7ec28f8c3bdedd8953b8299b1e49c8",
+  "corrected_process_and_case_fields.npz": "19e066110963b7b4348b8bb0b18a21f40dbb78bf0e284f024fa65e97646206ab",
+  "corrected_regime_heatmaps.npz": "e35c09d987659e1879da11254b253c6f8d19ca55c2cc122c75c32f5da534ea3e",
+  "corrected_regime_summary.csv": "a6ed3acc1d00f10221ae0308fba1694f37dffdfbbbc0c9f8abcfcbe1e9ebbf7e",
+  "representative_case_selection.csv": "2755d020b3a3a19b356b2663dda785fb1a53984644dccc44101bf5cc205d0e32"
+}

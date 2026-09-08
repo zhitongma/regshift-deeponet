@@ -1,0 +1,112 @@
+[
+  {
+    "figure": "Figure_1a",
+    "stem": "fig1a",
+    "script": "generate_task_setup.py"
+  },
+  {
+    "figure": "Figure_1b",
+    "stem": "fig1b",
+    "script": "generate_task_setup.py"
+  },
+  {
+    "figure": "Figure_1c",
+    "stem": "fig1c",
+    "script": "generate_task_setup.py"
+  },
+  {
+    "figure": "Figure_1d",
+    "stem": "fig1d_workflow",
+    "script": "diagrams/fig1d_workflow.tex"
+  },
+  {
+    "figure": "Figure_2",
+    "stem": "fig2_architecture",
+    "script": "diagrams/fig2_architecture.tex"
+  },
+  {
+    "figure": "Figure_3",
+    "stem": "fig3_main_benchmark",
+    "script": "generate_revision_figures.py"
+  },
+  {
+    "figure": "Figure_4",
+    "stem": "fig4_process_chain_corrected",
+    "script": "generate_corrected_field_figures.py"
+  },
+  {
+    "figure": "Figure_5",
+    "stem": "fig5_bt_summary",
+    "script": "generate_revision_figures.py"
+  },
+  {
+    "figure": "Figure_6",
+    "stem": "fig6_case_study_corrected",
+    "script": "generate_corrected_field_figures.py"
+  },
+  {
+    "figure": "Figure_7",
+    "stem": "fig7_regime_corrected",
+    "script": "generate_corrected_field_figures.py"
+  },
+  {
+    "figure": "Figure_8",
+    "stem": "fig5_applicability_envelope",
+    "script": "generate_restored_figures.py"
+  },
+  {
+    "figure": "Figure_9",
+    "stem": "fig6_reliability_diagnostics",
+    "script": "generate_restored_figures.py"
+  },
+  {
+    "figure": "Figure_10",
+    "stem": "fig7_computational_scaling",
+    "script": "generate_restored_figures.py"
+  },
+  {
+    "figure": "Figure_S1",
+    "stem": "figS10_param_sampling",
+    "script": "generate_supplementary_context.py"
+  },
+  {
+    "figure": "Figure_S2",
+    "stem": "figS_training_audit",
+    "script": "generate_restored_figures.py"
+  },
+  {
+    "figure": "Figure_S3",
+    "stem": "figS_bound_sensitivity",
+    "script": "generate_restored_figures.py"
+  },
+  {
+    "figure": "Figure_S4",
+    "stem": "figS_fno_validation",
+    "script": "generate_restored_figures.py"
+  },
+  {
+    "figure": "Figure_S5",
+    "stem": "figS8_sparse_crossres",
+    "script": "generate_supplementary_context.py"
+  },
+  {
+    "figure": "Figure_S6",
+    "stem": "figS_qc_selection",
+    "script": "generate_restored_figures.py"
+  },
+  {
+    "figure": "Figure_S7",
+    "stem": "figS_rainfall_stress",
+    "script": "generate_restored_figures.py"
+  },
+  {
+    "figure": "Figure_S8",
+    "stem": "figS_mar_feasibility",
+    "script": "generate_restored_figures.py"
+  },
+  {
+    "figure": "Figure_S9",
+    "stem": "figS_mbe_trigger",
+    "script": "generate_restored_figures.py"
+  }
+]

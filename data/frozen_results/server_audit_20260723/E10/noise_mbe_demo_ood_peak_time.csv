@@ -1,0 +1,11 @@
+scenario,mode,eps_rel,h_rel_l2_mean,theta_rel_l2_mean,theta_gain,dstorage_rel_err_mean_pct,mbe_w_final_mean_pct,mbe_w_final_median_pct,mbe_minus_ref_mean_pct,amplification_mbe_per_h_l2
+ood_peak_time,reference(HYDRUS),0.0,0.0,0.0,,0.0,0.9917,0.3816,0.0,
+ood_peak_time,white,0.005,0.00501,0.00096,0.192,0.0277,0.9896,0.3971,-0.0021,-0.004
+ood_peak_time,white,0.01,0.01000,0.00192,0.192,0.0605,0.9874,0.4273,-0.0043,-0.004
+ood_peak_time,white,0.02,0.01994,0.00383,0.192,0.1152,1.0262,0.4997,0.0345,0.017
+ood_peak_time,smooth,0.005,0.00489,0.00099,0.202,0.0889,0.9902,0.3803,-0.0015,-0.003
+ood_peak_time,smooth,0.01,0.00931,0.00196,0.211,0.2110,1.0273,0.4664,0.0356,0.038
+ood_peak_time,smooth,0.02,0.01884,0.00389,0.206,0.3865,1.1825,0.5675,0.1908,0.101
+ood_peak_time,bias,0.005,0.00500,0.00096,0.192,0.2440,1.1261,0.6851,0.1344,0.269
+ood_peak_time,bias,0.01,0.01000,0.00192,0.192,0.4884,1.2497,0.9217,0.2580,0.258
+ood_peak_time,bias,0.02,0.02000,0.00384,0.192,0.9825,1.7193,1.2768,0.7276,0.364

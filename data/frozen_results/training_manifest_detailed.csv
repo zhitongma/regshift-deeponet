@@ -1,0 +1,45 @@
+group,scenario,run,total_epochs,best_epoch,best_val_loss,wall_minutes
+"Bounded RegShift, high",IID,e0_regshift_fixed_iid_s123,6100,100,0.10267062485218048,44.32131906747818
+"Bounded RegShift, high",IID,e0_regshift_fixed_iid_s42,6400,400,0.08360987901687622,58.899386930465695
+"Bounded RegShift, high",IID,e0_regshift_fixed_iid_s456,7000,300,0.10190943628549576,55.271937084198
+"Bounded RegShift, high",OOD peak,e0_regshift_fixed_ood_peak_s123,6100,1,0.14957594871520996,45.376019481817885
+"Bounded RegShift, high",OOD peak,e0_regshift_fixed_ood_peak_s42,6200,300,0.11195513606071472,51.40856918891271
+"Bounded RegShift, high",OOD peak,e0_regshift_fixed_ood_peak_s456,6700,100,0.09629078954458237,49.850914033253986
+"Bounded RegShift, high",OOD peak-time,e0_regshift_fixed_ood_peak_time_s123,7100,100,0.09856733679771423,51.07013616164525
+"Bounded RegShift, high",OOD peak-time,e0_regshift_fixed_ood_peak_time_s42,7100,1,0.08620506525039673,51.09076810677846
+"Bounded RegShift, high",OOD peak-time,e0_regshift_fixed_ood_peak_time_s456,6900,100,0.09614939987659454,49.75320500135422
+"Standard DeepONet, high",IID,e1_deeponet_highbudget_iid_s123,5100,1,0.18501509726047516,11.980524690945943
+"Standard DeepONet, high",IID,e1_deeponet_highbudget_iid_s42,6200,300,0.11197501420974731,22.35175751845042
+"Standard DeepONet, high",IID,e1_deeponet_highbudget_iid_s456,5700,100,0.14647696912288666,13.484705726305643
+"Standard DeepONet, high",OOD peak,e1_deeponet_highbudget_ood_peak_s123,5100,200,0.2316136658191681,13.581936573982238
+"Standard DeepONet, high",OOD peak,e1_deeponet_highbudget_ood_peak_s42,5700,200,0.20607364177703857,15.393326433499654
+"Standard DeepONet, high",OOD peak,e1_deeponet_highbudget_ood_peak_s456,5200,300,0.23546062409877777,18.166165244579314
+"Standard DeepONet, high",OOD peak-time,e1_deeponet_highbudget_ood_peak_time_s123,5900,200,0.11176832765340805,14.160468979676564
+"Standard DeepONet, high",OOD peak-time,e1_deeponet_highbudget_ood_peak_time_s42,5700,100,0.10091475397348404,17.414453049500782
+"Standard DeepONet, high",OOD peak-time,e1_deeponet_highbudget_ood_peak_time_s456,6200,200,0.15063858032226562,22.059032452106475
+"FNN, high",IID,e1_fnn_highbudget_iid_s123,4200,2200,0.25176878855341955,24.801184741655984
+"FNN, high",IID,e1_fnn_highbudget_iid_s42,4300,2300,0.27301276411328995,26.43082670768102
+"FNN, high",IID,e1_fnn_highbudget_iid_s456,4700,2700,0.29024488244737895,29.59978084564209
+"FNN, high",OOD peak,e1_fnn_highbudget_ood_peak_s123,4800,2800,0.27487273835668374,15.618985942999522
+"FNN, high",OOD peak,e1_fnn_highbudget_ood_peak_s42,4600,2600,0.2883208604419933,20.46341592470805
+"FNN, high",OOD peak,e1_fnn_highbudget_ood_peak_s456,5000,3700,0.2686897890240538,27.68416223128637
+"FNN, high",OOD peak-time,e1_fnn_highbudget_ood_peak_time_s123,3100,1100,0.2961629598037056,19.02511401971181
+"FNN, high",OOD peak-time,e1_fnn_highbudget_ood_peak_time_s42,4600,2600,0.22086277578188027,28.089688964684804
+"FNN, high",OOD peak-time,e1_fnn_highbudget_ood_peak_time_s456,3700,1700,0.24903348114179527,23.344264284769693
+"Bounded RegShift, low",IID,e1_regshift_lowbudget_iid_s123,2900,700,0.10846984386444092,37.65515315930049
+"Bounded RegShift, low",IID,e1_regshift_lowbudget_iid_s42,2800,700,0.09954717010259628,36.96713160673777
+"Bounded RegShift, low",OOD peak,e1_regshift_lowbudget_ood_peak_s123,2800,700,0.16099973022937775,38.01297613382339
+"Bounded RegShift, low",OOD peak,e1_regshift_lowbudget_ood_peak_s42,2800,700,0.12451839447021484,37.97455062866211
+"Bounded RegShift, low",OOD peak,e1_regshift_lowbudget_ood_peak_s456,3300,500,0.16992786526679993,36.2474348505338
+"Bounded RegShift, low",OOD peak-time,e1_regshift_lowbudget_ood_peak_time_s123,2500,400,0.1264079511165619,27.454014058907827
+"Bounded RegShift, low",OOD peak-time,e1_regshift_lowbudget_ood_peak_time_s42,2900,700,0.11210091412067413,37.80376400152842
+"Bounded RegShift, low",OOD peak-time,e1_regshift_lowbudget_ood_peak_time_s456,2800,600,0.09741391241550446,34.53102323611577
+"Unbounded Shift, high",IID,e1_shift_highbudget_iid_s123,6400,1700,0.1341220587491989,86.87281086444855
+"Unbounded Shift, high",IID,e1_shift_highbudget_iid_s42,7100,1,0.09829292446374893,50.60407741467158
+"Unbounded Shift, high",IID,e1_shift_highbudget_iid_s456,7100,100,0.08413268625736237,50.66505549748739
+"Unbounded Shift, high",OOD peak,e1_shift_highbudget_ood_peak_s123,5500,800,0.1442810595035553,59.119893785317736
+"Unbounded Shift, high",OOD peak,e1_shift_highbudget_ood_peak_s42,6300,100,0.08634816110134125,46.6835861881574
+"Unbounded Shift, high",OOD peak,e1_shift_highbudget_ood_peak_s456,7100,1,0.11301133036613464,51.90510465701421
+"Unbounded Shift, high",OOD peak-time,e1_shift_highbudget_ood_peak_time_s123,6400,1800,0.14618882536888123,62.04143995841344
+"Unbounded Shift, high",OOD peak-time,e1_shift_highbudget_ood_peak_time_s42,8500,1500,0.10865046828985214,64.65689932505289
+"Unbounded Shift, high",OOD peak-time,e1_shift_highbudget_ood_peak_time_s456,6800,1,0.0794520229101181,37.404923089345296

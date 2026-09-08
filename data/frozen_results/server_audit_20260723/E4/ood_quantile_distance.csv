@@ -1,0 +1,7 @@
+scene,variable,stage,train_p50,train_p90,train_max,test_p10,test_p50,test_median_quantile_in_train,frac_test_ge_train_p90,frac_test_gt_train_max,gap_testP50_minus_trainP90
+iid,q_top_peak,pre_qc,4.4259,4.8774,4.9973,3.5650,4.4849,0.5346,0.1405,0.0000,-0.3926
+iid,q_top_peak,post_qc,4.3966,4.8694,4.9973,3.5749,4.4836,0.5473,0.1429,0.0000,-0.3858
+ood_peak,q_top_peak,pre_qc,4.3388,4.7849,4.8773,4.8920,4.9201,1.0000,1.0000,1.0000,0.1352
+ood_peak,q_top_peak,post_qc,4.3198,4.7829,4.8773,4.8930,4.9198,1.0000,1.0000,1.0000,0.1369
+ood_peak_time,q_top_peak_time,pre_qc,19.0000,38.0000,38.0000,47.0000,47.0000,1.0000,1.0000,1.0000,9.0000
+ood_peak_time,q_top_peak_time,post_qc,19.0000,38.0000,38.0000,47.0000,47.0000,1.0000,1.0000,1.0000,9.0000

@@ -1,0 +1,37 @@
+{
+  "checkpoint": "/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_iid_s42/results/checkpoints/m1_best.pt",
+  "config": "/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_iid_s42/metadata/config.yaml",
+  "device": "cuda",
+  "device_name": "NVIDIA GeForce RTX 4090",
+  "torch_threads": null,
+  "torch_threads_note": "default",
+  "n_trunk_points": 4949,
+  "warmup": 5,
+  "repeats": 30,
+  "batches": {
+    "1": {
+      "batch_size": 1,
+      "total_median_s": 0.0009420076385140419,
+      "total_mean_s": 0.0011275104557474454,
+      "total_p10_s": 0.0009330231696367264,
+      "total_p90_s": 0.0014750752598047256,
+      "per_sample_median_ms": 0.9420076385140419
+    },
+    "128": {
+      "batch_size": 128,
+      "total_median_s": 0.07389677315950394,
+      "total_mean_s": 0.07390765758852164,
+      "total_p10_s": 0.07382553815841675,
+      "total_p90_s": 0.07402108795940876,
+      "per_sample_median_ms": 0.5773185403086245
+    },
+    "1024": {
+      "batch_size": 1024,
+      "total_median_s": 0.6298460513353348,
+      "total_mean_s": 0.629905921096603,
+      "total_p10_s": 0.6288295388221741,
+      "total_p90_s": 0.6307564210146666,
+      "per_sample_median_ms": 0.6150840345071629
+    }
+  }
+}

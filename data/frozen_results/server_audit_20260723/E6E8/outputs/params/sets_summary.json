@@ -1,0 +1,94 @@
+{
+  "seed": 20260716,
+  "ks_train_range": [
+    0.25,
+    29.7
+  ],
+  "gen_flux_range": [
+    0.1,
+    5.0
+  ],
+  "sets": {
+    "E6_extreme_peak_v1": {
+      "n_samples": 96,
+      "csv": "/root/autodl-tmp/workspace/03_补充实验/E6_E8_OOD梯度与联合位移/outputs/params/E6_extreme_peak_v1/lhs_params.csv",
+      "groups": {
+        "peak_5.5": {
+          "n": 32,
+          "peak_min": 5.5,
+          "peak_max": 5.5,
+          "peak_time_min": 7.0,
+          "peak_time_max": 42.0
+        },
+        "peak_6.5": {
+          "n": 32,
+          "peak_min": 6.5,
+          "peak_max": 6.5,
+          "peak_time_min": 6.0,
+          "peak_time_max": 40.0
+        },
+        "peak_8.0": {
+          "n": 32,
+          "peak_min": 8.0,
+          "peak_max": 8.0,
+          "peak_time_min": 7.0,
+          "peak_time_max": 40.0
+        }
+      }
+    },
+    "E6_extreme_peaktime_v1": {
+      "n_samples": 32,
+      "csv": "/root/autodl-tmp/workspace/03_补充实验/E6_E8_OOD梯度与联合位移/outputs/params/E6_extreme_peaktime_v1/lhs_params.csv",
+      "groups": {
+        "peaktime_44h": {
+          "n": 8,
+          "peak_min": 4.111314558813242,
+          "peak_max": 4.952534966288884,
+          "peak_time_min": 44.0,
+          "peak_time_max": 44.0
+        },
+        "peaktime_45h": {
+          "n": 8,
+          "peak_min": 4.109898065143473,
+          "peak_max": 4.913520502823417,
+          "peak_time_min": 45.0,
+          "peak_time_max": 45.0
+        },
+        "peaktime_46h": {
+          "n": 8,
+          "peak_min": 4.10677674979797,
+          "peak_max": 4.607583672088545,
+          "peak_time_min": 46.0,
+          "peak_time_max": 46.0
+        },
+        "peaktime_47h": {
+          "n": 8,
+          "peak_min": 4.13062784372747,
+          "peak_max": 4.7181794127526135,
+          "peak_time_min": 47.0,
+          "peak_time_max": 47.0
+        }
+      }
+    },
+    "E8_joint_shift_v1": {
+      "n_samples": 32,
+      "csv": "/root/autodl-tmp/workspace/03_补充实验/E6_E8_OOD梯度与联合位移/outputs/params/E8_joint_shift_v1/lhs_params.csv",
+      "groups": {
+        "joint_Ks0.15": {
+          "n": 16,
+          "peak_min": 4.502726432314685,
+          "peak_max": 4.947924418632098,
+          "peak_time_min": 6.0,
+          "peak_time_max": 36.0
+        },
+        "joint_Ks40": {
+          "n": 16,
+          "peak_min": 4.509635067641279,
+          "peak_max": 4.889288187434552,
+          "peak_time_min": 8.0,
+          "peak_time_max": 42.0
+        }
+      }
+    }
+  }
+}

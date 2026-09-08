@@ -1,0 +1,11 @@
+run_name,hydrus_elapsed_s,hydrus_mean_sample_s,hydrus_median_sample_s,hydrus_n_success,hydrus_n_fail,process_elapsed_s,data_gen_total_s,train_m1_s,train_m2_s,train_fnn_s,train_fno_s,train_grid_fnn_s,b4_m1_t_infer_ms,b4_m2_data_t_infer_ms,b4_m1_n_cross,b4_m2_data_n_cross,run
+iid_medium_v1,,,,,,,,,,,,,,,,,/root/autodl-tmp/repo/experiments/qtop_func/runs/iid_medium_v1
+e0_regshift_fixed_iid_s42,,,,,,,,1908.5222849845886,1625.4409308433533,,,,1.3272762298583984,1.397848129272461,,,/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_iid_s42
+e0_regshift_fixed_iid_s123,,,,,,,,1614.6518242359161,1044.6273198127747,,,,1.3091564178466797,1.405477523803711,,,/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_iid_s123
+e0_regshift_fixed_iid_s456,,,,,,,,1883.802498102188,1432.5137269496918,,,,1.344919204711914,1.432657241821289,,,/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_iid_s456
+e0_regshift_fixed_ood_peak_s42,,,,,,,,1610.9569489955902,1473.5572023391724,,,,1.3221502304077148,1.3712644577026367,,,/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_ood_peak_s42
+e0_regshift_fixed_ood_peak_s123,,,,,,,,1652.4618849754333,1070.0992839336395,,,,1.323699951171875,1.374363899230957,,,/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_ood_peak_s123
+e0_regshift_fixed_ood_peak_s456,,,,,,,,1909.927842617035,1081.1269993782043,,,,1.3301372528076172,1.3793706893920898,,,/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_ood_peak_s456
+e0_regshift_fixed_ood_peak_time_s42,,,,,,,,2014.5332968235016,1050.9127895832062,,,,1.4030933380126953,1.391768455505371,,,/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_ood_peak_time_s42
+e0_regshift_fixed_ood_peak_time_s123,,,,,,,,2013.3979454040527,1050.8102242946625,,,,1.3196468353271484,1.3706684112548828,,,/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_ood_peak_time_s123
+e0_regshift_fixed_ood_peak_time_s456,,,,,,,,1934.6472799777985,1050.5450201034546,,,,1.3238191604614258,1.3740062713623047,,,/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_ood_peak_time_s456

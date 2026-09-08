@@ -1,0 +1,15 @@
+{
+  "source_run": "/root/autodl-tmp/repo/experiments/qtop_func/runs/iid_medium_v1",
+  "run_dir": "/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e9_hydrus_timing_iid_v1",
+  "config": "configs/e9_bench_hydrus_iid.yaml",
+  "exe": "/root/autodl-tmp/hydrus_exe",
+  "start": 0,
+  "end": 20,
+  "n_success": 17,
+  "n_fail": 3,
+  "elapsed_seconds": 36.78144931793213,
+  "mean_sample_seconds": 0.8769294093636906,
+  "median_sample_seconds": 0.3453352451324463,
+  "trimmed_mean_seconds_drop_first": 0.8956468850374222,
+  "note": "HYDRUS-1D 单线程; 单次耗时=单核耗时; K 核并发的有效单样本时间=单核时间/K (线性折算, 见 README 口径说明)"
+}

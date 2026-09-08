@@ -1,0 +1,72 @@
+{
+  "screen_dir": "/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e7_mc_screening_v1",
+  "val_run_dir": "/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e7_mc_validation_v1",
+  "tb_threshold_hours": 36.0,
+  "bt_frac": 0.05,
+  "n_planned": 150,
+  "n_validated": 150,
+  "missing_sample_ids": [],
+  "metrics_all": {
+    "n": 150,
+    "risk_prob_surrogate": 0.9866666666666667,
+    "risk_prob_hydrus": 1.0,
+    "risk_prob_abs_dev": 0.013333333333333308,
+    "spearman_tb": 0.22164594661020168,
+    "spearman_peak_c": 0.16415335013800558,
+    "spearman_ranking_score": 0.9332414773989955,
+    "top50_recall_in_pool": 0.0,
+    "n_hydrus_feasible_in_pool": 0,
+    "feasibility_confusion": {
+      "tp": 0,
+      "fp": 2,
+      "fn": 0,
+      "tn": 148
+    },
+    "tb_mae_hours": 1.0,
+    "tb_err_p90_hours": 3.0,
+    "peak_c_mae": 0.038635833333333335
+  },
+  "metrics_by_stratum": {
+    "head": {
+      "n": 50,
+      "risk_prob_abs_dev": 0.040000000000000036,
+      "spearman_tb": 0.6304802560508947,
+      "tb_mae_hours": 0.4
+    },
+    "high_mbe": {
+      "n": 30,
+      "risk_prob_abs_dev": 0.0,
+      "spearman_tb": null,
+      "tb_mae_hours": 0.06666666666666667
+    },
+    "mid": {
+      "n": 40,
+      "risk_prob_abs_dev": 0.0,
+      "spearman_tb": 0.4142953393712123,
+      "tb_mae_hours": 1.325
+    },
+    "tail": {
+      "n": 30,
+      "risk_prob_abs_dev": 0.0,
+      "spearman_tb": 0.2385485478003554,
+      "tb_mae_hours": 2.5
+    }
+  },
+  "metrics_after_mbe_filter": {
+    "n": 0
+  },
+  "mbe_filter": {
+    "mbe_threshold_pct": 10.0,
+    "n_removed": 150,
+    "n_bad_total": 11,
+    "n_bad_removed": 11,
+    "bad_capture_rate": 1.0,
+    "filter_precision": 0.07333333333333333,
+    "bad_rate_before": 0.07333333333333333,
+    "bad_rate_after": null
+  },
+  "acceptance": {
+    "spearman_ranking_gt_0.9": true,
+    "top50_recall_gt_0.8": false
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "source": "miami2023 (isd_722020-12839_2023)",
+  "demo": false,
+  "n_events": 9,
+  "n_samples": 27,
+  "scale_mode": "pool",
+  "pool_ref_peak_mm_per_h": 58.9,
+  "envelope_cm_per_h": [
+    0.1,
+    5.0
+  ],
+  "forcing_dt_hours": 1.0,
+  "soils": {
+    "sandy_loam": {
+      "theta_r": 0.065,
+      "theta_s": 0.41,
+      "alpha": 0.075,
+      "n_vg": 1.89,
+      "K_s": 4.42
+    },
+    "loam": {
+      "theta_r": 0.078,
+      "theta_s": 0.43,
+      "alpha": 0.036,
+      "n_vg": 1.56,
+      "K_s": 1.04
+    },
+    "clay_loam": {
+      "theta_r": 0.095,
+      "theta_s": 0.41,
+      "alpha": 0.019,
+      "n_vg": 1.31,
+      "K_s": 0.26
+    }
+  },
+  "D_L": 10.0,
+  "c_top": 0.5,
+  "soil_reference": "Carsel & Parrish (1988) WRR 24(5):755-769, K_s converted cm/d -> cm/h",
+  "events": [
+    {
+      "start": 832,
+      "total": 96.5,
+      "pos": "mid",
+      "n_peaks": 3,
+      "raw_peak_mm_per_h": 25.9,
+      "scale_factor_cmh_per_mmh": 0.08319185059422751,
+      "start_time": "2023-02-04T16:00"
+    },
+    {
+      "start": 2110,
+      "total": 98.7,
+      "pos": "mid",
+      "n_peaks": 1,
+      "raw_peak_mm_per_h": 50.3,
+      "scale_factor_cmh_per_mmh": 0.08319185059422751,
+      "start_time": "2023-03-29T22:00"
+    },
+    {
+      "start": 2364,
+      "total": 82.2,
+      "pos": "back",
+      "n_peaks": 2,
+      "raw_peak_mm_per_h": 16.8,
+      "scale_factor_cmh_per_mmh": 0.08319185059422751,
+      "start_time": "2023-04-09T12:00"
+    },
+    {
+      "start": 2400,
+      "total": 141.0,
+      "pos": "front",
+      "n_peaks": 3,
+      "raw_peak_mm_per_h": 16.8,
+      "scale_factor_cmh_per_mmh": 0.08319185059422751,
+      "start_time": "2023-04-11T00:00"
+    },
+    {
+      "start": 4037,
+      "total": 79.30000000000001,
+      "pos": "back",
+      "n_peaks": 1,
+      "raw_peak_mm_per_h": 58.9,
+      "scale_factor_cmh_per_mmh": 0.08319185059422751,
+      "start_time": "2023-06-18T05:00"
+    },
+    {
+      "start": 4073,
+      "total": 80.30000000000001,
+      "pos": "front",
+      "n_peaks": 1,
+      "raw_peak_mm_per_h": 58.9,
+      "scale_factor_cmh_per_mmh": 0.08319185059422751,
+      "start_time": "2023-06-19T17:00"
+    },
+    {
+      "start": 4369,
+      "total": 117.19999999999999,
+      "pos": "mid",
+      "n_peaks": 1,
+      "raw_peak_mm_per_h": 48.8,
+      "scale_factor_cmh_per_mmh": 0.08319185059422751,
+      "start_time": "2023-07-02T01:00"
+    },
+    {
+      "start": 6193,
+      "total": 80.10000000000001,
+      "pos": "mid",
+      "n_peaks": 3,
+      "raw_peak_mm_per_h": 27.7,
+      "scale_factor_cmh_per_mmh": 0.08319185059422751,
+      "start_time": "2023-09-16T01:00"
+    },
+    {
+      "start": 7630,
+      "total": 207.9,
+      "pos": "mid",
+      "n_peaks": 1,
+      "raw_peak_mm_per_h": 39.4,
+      "scale_factor_cmh_per_mmh": 0.08319185059422751,
+      "start_time": "2023-11-14T22:00"
+    }
+  ],
+  "class_counts": {
+    "front": 2,
+    "back": 2,
+    "mid": 5,
+    "multi_peak": 4
+  }
+}

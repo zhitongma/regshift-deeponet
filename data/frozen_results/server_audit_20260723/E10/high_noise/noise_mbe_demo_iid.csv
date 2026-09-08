@@ -1,0 +1,8 @@
+scenario,mode,eps_rel,h_rel_l2_mean,theta_rel_l2_mean,theta_gain,dstorage_rel_err_mean_pct,mbe_w_final_mean_pct,mbe_w_final_median_pct,mbe_minus_ref_mean_pct,amplification_mbe_per_h_l2
+iid,reference(HYDRUS),0.0,0.0,0.0,,0.0,3.8395,1.0562,0.0,
+iid,smooth,0.05,0.04808,0.00811,0.169,2.4346,4.6412,1.6793,0.8017,0.167
+iid,smooth,0.1,0.09347,0.01593,0.170,3.9776,6.4085,1.9358,2.5690,0.275
+iid,smooth,0.2,0.18962,0.03268,0.172,9.3043,11.8040,2.5337,7.9646,0.420
+iid,bias,0.05,0.05000,0.00798,0.160,2.4889,5.4385,2.4130,1.5990,0.320
+iid,bias,0.1,0.10000,0.01607,0.161,4.9794,7.3913,3.8299,3.5518,0.355
+iid,bias,0.2,0.20000,0.03210,0.160,10.2410,10.8695,7.2954,7.0300,0.352

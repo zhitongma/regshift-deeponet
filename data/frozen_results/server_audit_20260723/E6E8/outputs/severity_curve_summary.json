@@ -1,0 +1,29 @@
+{
+  "n_curve_rows": 502,
+  "n_slope_rows": 108,
+  "n_convergence_rows": 9,
+  "axis_summary": {
+    "joint_forcing_x_Ks": {
+      "n_curves": 36,
+      "n_positive_slopes": 0,
+      "n_strictly_nondecreasing": 0
+    },
+    "q_top_peak": {
+      "n_curves": 36,
+      "n_positive_slopes": 36,
+      "n_strictly_nondecreasing": 2
+    },
+    "q_top_peak_time": {
+      "n_curves": 36,
+      "n_positive_slopes": 25,
+      "n_strictly_nondecreasing": 2
+    }
+  },
+  "min_evaluable_fraction": 0.5625,
+  "outputs": {
+    "curve_long": "/root/autodl-tmp/workspace/03_补充实验/E6_E8_OOD梯度与联合位移/outputs/severity_curve_long.csv",
+    "slopes": "/root/autodl-tmp/workspace/03_补充实验/E6_E8_OOD梯度与联合位移/outputs/severity_slopes.csv",
+    "convergence_report": "/root/autodl-tmp/workspace/03_补充实验/E6_E8_OOD梯度与联合位移/outputs/convergence_report.csv"
+  },
+  "interpretation_note": "joint_forcing_x_Ks 的两个档是低 Ks 与高 Ks 两种方向，不是经过经验验证的单调严重度序列；应分层报告，不能把负斜率解释成模型随外推增强而改善。"
+}

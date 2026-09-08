@@ -1,0 +1,17 @@
+{
+  "n_raw": 27,
+  "n_passed_qc": 27,
+  "n_failed_qc": 0,
+  "n_test_saved": 27,
+  "failed_sample_ids": [],
+  "failed_reasons": {},
+  "qc_threshold_fraction": 0.01,
+  "source_scaler": "/root/autodl-tmp/repo/experiments/qtop_func/runs/g4_regshift_iid_s42/data/processed/scaler.npz",
+  "source_scaler_sha256": "923210f61a7e553328237b7ddcba5edccad2d4a4dd8809579b05980ea688b983",
+  "fit_scaler": false,
+  "branch_dim": 57,
+  "branch_norm_range": [
+    -0.03892837464809418,
+    1.0307841300964355
+  ]
+}

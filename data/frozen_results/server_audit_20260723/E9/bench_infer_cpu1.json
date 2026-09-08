@@ -1,0 +1,29 @@
+{
+  "checkpoint": "/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_iid_s42/results/checkpoints/m1_best.pt",
+  "config": "/root/autodl-tmp/repo/experiments/qtop_func/runs_revision/e0_regshift_fixed_iid_s42/metadata/config.yaml",
+  "device": "cpu",
+  "device_name": "cpu",
+  "torch_threads": 1,
+  "torch_threads_note": "1",
+  "n_trunk_points": 4949,
+  "warmup": 1,
+  "repeats": 5,
+  "batches": {
+    "1": {
+      "batch_size": 1,
+      "total_median_s": 0.09484570845961571,
+      "total_mean_s": 0.09560777470469475,
+      "total_p10_s": 0.08886545337736607,
+      "total_p90_s": 0.10469153337180614,
+      "per_sample_median_ms": 94.84570845961571
+    },
+    "8": {
+      "batch_size": 8,
+      "total_median_s": 1.1410967782139778,
+      "total_mean_s": 1.1384273864328862,
+      "total_p10_s": 1.1184469480067492,
+      "total_p90_s": 1.1549752987921238,
+      "per_sample_median_ms": 142.63709727674723
+    }
+  }
+}
