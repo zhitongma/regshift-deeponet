@@ -1,0 +1,160 @@
+# =============================================================================
+# E1 budget-parity ablation | RegShift (bounded Shift-DeepONet) trained with the BASELINE budget (direction A)
+# Scenario: IID | base: qtop_func_iid_medium.yaml (+ boost_A4_shift.yaml for shift family)
+# Seeds are passed on the command line (--seed 42/123/456); training.seed stays 42.
+# =============================================================================
+
+physics:
+  domain_length: 100.0
+  simulation_time: 48.0
+  n_spatial_nodes: 101
+  n_time_steps: 49
+  initial_head: -100.0
+  initial_conc: 0.0
+
+parameters:
+  theta_r:
+    min: 0.034
+    max: 0.098
+    distribution: uniform
+  theta_s:
+    min: 0.36
+    max: 0.51
+    distribution: uniform
+  alpha:
+    min: 0.005
+    max: 0.145
+    distribution: log_uniform
+  n_vg:
+    min: 1.09
+    max: 2.68
+    distribution: uniform
+  K_s:
+    min: 0.25
+    max: 29.7
+    distribution: log_uniform
+  D_L:
+    min: 1.0
+    max: 20.0
+    distribution: uniform
+  q_top:
+    min: 0.1
+    max: 5.0
+    distribution: uniform
+  c_top:
+    min: 0.1
+    max: 1.0
+    distribution: uniform
+
+q_top_function:
+  enabled: true
+  n_steps: 48
+  n_control_points: 6
+  min_flux: 0.1
+  max_flux: 5.0
+
+data:
+  n_total: 1024
+  n_train: 768
+  n_val: 128
+  n_test: 128
+  seed: 42
+  split_mode: iid
+  ood_parameter: q_top_peak
+  ood_quantile: 0.9
+  ood_tail: high
+  qc_mass_balance_threshold: 0.01
+
+model:
+  arch: shift_deeponet
+  branch_input_dim: 57
+  branch_hidden: [512, 512, 512, 512]
+  trunk_input_dim: 2
+  trunk_hidden: [256, 256, 256, 256]
+  trunk_output_dim: 256
+  num_outputs: 2
+  activation: gelu
+  trunk_encoding: fourier
+  fourier_features: 32
+  fourier_scale: 4.0
+  use_output_heads: true
+  output_head_hidden: [256]
+  shift_deeponet:
+    transform_hidden: [64, 64]
+    # RegShift bounds. MUST live under model.shift_deeponet.* --
+    # build_shift_deeponet only reads cfg["model"]["shift_deeponet"]
+    # (src/models/shift_deeponet.py:155-172). A top-level `shift_deeponet:`
+    # block is silently ignored (historical bug, see REPO_FACTS.md §1 / E0).
+    transform_bound_scale: 0.3
+    transform_bound_shift: 0.2
+
+fnn:
+  hidden_dims: [512, 512, 512, 512]
+
+fno:
+  width: 32
+  modes_z: 16
+  modes_t: 10
+  n_layers: 4
+
+grid_fnn:
+  hidden_dims: [1024, 1024, 1024]
+  use_layer_norm: true
+
+training:
+  # === E1 baseline ("low") budget: identical to the published baseline runs ===
+  epochs: 5000
+  learning_rate: 5.0e-4
+  m2_learning_rate: 1.0e-4
+  lr_min: 1.0e-6
+  lr_scheduler: reduce_on_plateau
+  val_interval: 100
+  lr_patience: 800
+  lr_factor: 0.5
+  batch_size: 32
+  early_stopping_patience: 2000
+  optimizer: adam
+  seed: 42  # actual seed passed via --seed (42/123/456)
+  # Fairness control: historical g4_regshift runs trained with
+  # n_coords_train: 1024; E1 fixes it to 1024 for EVERY cell (both budgets,
+  # all architectures) so coordinate subsampling is never a confounder.
+  n_coords_train: 1024
+  m2_warm_start: true
+  m2_warm_start_checkpoint: m1_best.pt
+  m2_scheduler_metric: loss
+  m2_early_stopping_metric: loss
+  m2_best_alias_metric: score
+  m2_phase2_selection_only: false
+  m2_phase2_reset_scheduler: false
+  m2_phase2_reset_early_stopping: false
+  m2_phase2_require_entry_before_early_stop: false
+
+data_loss:
+  w_h: 1.0
+  w_c: 1.0
+
+mass_loss:
+  target_mode: true_flux
+  objective_mode: relative_mse
+  selection_mass_metric: objective
+  w_mass_phase1: 0.00
+  w_mass_phase2: 0.05
+  switch_epoch_fraction: 0.40
+  w_mass_water: 1.0
+  w_mass_solute: 0.2
+  w_mass_water_phase1: 1.0
+  w_mass_water_phase2: 1.0
+  w_mass_solute_phase1: 0.2
+  w_mass_solute_phase2: 0.2
+  selection_data_weight: 1.0
+  selection_mass_water_weight: 0.02
+  selection_mass_solute_weight: 0.005
+
+paths:
+  raw_data: data/raw
+  processed_data: data/processed
+  parameters: data/parameters
+  checkpoints: results/checkpoints
+  logs: results/logs
+  experiments: results/experiments
+  figures: figures
